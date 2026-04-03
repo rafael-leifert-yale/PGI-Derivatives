@@ -15,16 +15,16 @@ First check in github if you were the last commit.
 Make sure you are in your folder before doing this...
 
 Case 1: No new updates on git (i.e. you were the last update)
-a) git stage .
-b) git commit -m "[commit message goes here]"
-c) git push origin
+1) git stage .
+2) git commit -m "[commit message goes here]"
+3) git push origin
 
 Case 2: Some analyst updated already on git (i.e. you were NOT the last update)
-a) git stage .
-b) git stash
+1) git stage .
+2) git stash
 
 ^ the above two steps just "save things that are ready to be pushed on your local"
 
-c) git pull origin (here, if nobody messed with the invariant, nothing bad should happen, i.e. no merge conflicts)
-d) git stash pop (pops your local changes back into your staging area)|
-e) do case 1
+3) git pull origin (here, if nobody messed with the invariant, nothing bad should happen, i.e. no merge conflicts)
+4) git stash pop (pops your local changes back into your staging area)|
+5) do case 1
