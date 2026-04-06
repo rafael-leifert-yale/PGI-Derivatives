@@ -233,5 +233,5 @@ Internal use only - PGI Derivatives proprietary research
 
 **Known Issues:**
 - Data coverage 62.8% (some days have low option liquidity)
-- Uses constant IV (25%) instead of market IV
+- Uses constant IV (25%) instead of mazrket IV
 - Stop-loss/take-profit configured but not implemented

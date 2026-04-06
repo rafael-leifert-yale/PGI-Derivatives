@@ -26,19 +26,21 @@ class DataEngine:
 
     Responsibilities:
     - Identify 0-DTE trading days
-    - Fetch SPY minute bars
+    - Fetch underlying minute bars
     - Construct option symbols
     - Fetch option minute bars
     - Validate data quality
     - Handle missing data
     """
 
-    def __init__(self):
+    def __init__(self, symbol: str = "SPY", config: Dict = None):
         """Initialize Alpaca clients"""
+        self.symbol = symbol
+        self.config = config or {}
         try:
             self.stock_client = StockHistoricalDataClient(ALPACA_API_KEY, ALPACA_SECRET_KEY)
             self.option_client = OptionHistoricalDataClient(ALPACA_API_KEY, ALPACA_SECRET_KEY)
-            print("✓ Alpaca clients initialized")
+            print(f"✓ Alpaca clients initialized (underlying: {self.symbol})")
         except Exception as e:
             raise RuntimeError(f"Failed to initialize Alpaca clients: {e}")
 
@@ -63,15 +65,19 @@ class DataEngine:
         start_dt = datetime.strptime(start_date, "%Y-%m-%d")
         end_dt = datetime.strptime(end_date, "%Y-%m-%d")
 
-        # For historical dates (before today), assume every weekday is a 0-DTE day
-        # This is accurate for dates after May 2023 when SPY went to daily expiries
-        # We'll handle holidays/market closures when we try to fetch data
+        # SPY/QQQ/IWM/DIA have daily 0-DTE after May 2023
+        # Individual stocks typically only have Friday weekly expiries
+        daily_0dte_symbols = {'SPY', 'QQQ', 'IWM', 'DIA'}
+        fridays_only = self.symbol not in daily_0dte_symbols
+
         trading_days = []
         current = start_dt
 
         while current <= end_dt:
-            # Skip weekends (Monday=0, Friday=4, Saturday=5, Sunday=6)
-            if current.weekday() < 5:
+            if current.weekday() < 5:  # Weekday
+                if fridays_only and current.weekday() != 4:  # 4 = Friday
+                    current += timedelta(days=1)
+                    continue
                 trading_days.append(current)
 
             current += timedelta(days=1)
@@ -87,15 +93,14 @@ class DataEngine:
         """
         Check if market was open on given date
 
-        Uses SPY data availability as proxy for market open
+        Uses underlying data availability as proxy for market open
         """
         try:
-            # Try to fetch one bar for that day
             start = date.replace(hour=9, minute=30)
             end = date.replace(hour=16, minute=0)
 
             request = StockBarsRequest(
-                symbol_or_symbols="SPY",
+                symbol_or_symbols=self.symbol,
                 timeframe=TimeFrame.Minute,
                 start=start,
                 end=end,
@@ -108,9 +113,9 @@ class DataEngine:
         except:
             return False
 
-    def fetch_spy_bars(self, date: datetime) -> pd.DataFrame:
+    def fetch_stock_bars(self, date: datetime) -> pd.DataFrame:
         """
-        Fetch SPY minute bars for a trading day
+        Fetch underlying stock minute bars for a trading day
 
         Args:
             date: Trading date
@@ -125,7 +130,7 @@ class DataEngine:
 
         try:
             request = StockBarsRequest(
-                symbol_or_symbols="SPY",
+                symbol_or_symbols=self.symbol,
                 timeframe=TimeFrame.Minute,
                 start=start,
                 end=end
@@ -146,7 +151,7 @@ class DataEngine:
             return df
 
         except Exception as e:
-            raise RuntimeError(f"Error fetching SPY bars for {date.date()}: {e}")
+            raise RuntimeError(f"Error fetching {self.symbol} bars for {date.date()}: {e}")
 
     def construct_option_symbol(self, root: str, expiry: datetime,
                                 strike: float, option_type: str) -> str:
@@ -222,19 +227,35 @@ class DataEngine:
             warnings.warn(f"Error fetching option bars for {symbol}: {e}")
             return pd.DataFrame()
 
-    def find_atm_strike(self, spy_price: float) -> float:
+    def find_atm_strike(self, stock_price: float) -> float:
         """
-        Find ATM strike nearest to current SPY price
+        Find ATM strike nearest to current underlying price
 
-        SPY options have $1 strikes for near-the-money
+        Strike intervals vary by symbol and price level:
+        - SPY/QQQ: $1 strikes (penny pilot)
+        - Individual stocks: $5 or $10 depending on price
 
         Args:
-            spy_price: Current SPY price
+            stock_price: Current underlying price
 
         Returns:
-            ATM strike price (rounded to nearest dollar)
+            ATM strike price (rounded to nearest standard interval)
         """
-        return round(spy_price)
+        interval = self.config.get('strike_interval', None)
+        if interval:
+            return round(stock_price / interval) * interval
+
+        # Default: $1 for SPY/QQQ, dynamic for individual stocks
+        if self.symbol in ('SPY', 'QQQ', 'IWM', 'DIA'):
+            return round(stock_price)
+
+        # Standard equity option strike intervals
+        if stock_price >= 200:
+            return round(stock_price / 10) * 10
+        elif stock_price >= 25:
+            return round(stock_price / 5) * 5
+        else:
+            return round(stock_price / 2.5) * 2.5
 
     def get_risk_free_rate(self, date: datetime) -> float:
         """
@@ -270,13 +291,13 @@ class DataEngine:
             warnings.warn(f"Error fetching risk-free rate: {e}. Using default 4.5%")
             return 0.045
 
-    def validate_data(self, spy_bars: pd.DataFrame, call_bars: pd.DataFrame,
+    def validate_data(self, stock_bars: pd.DataFrame, call_bars: pd.DataFrame,
                      put_bars: pd.DataFrame, date: datetime) -> Dict[str, any]:
         """
         Comprehensive data quality validation
 
         Args:
-            spy_bars: SPY minute bars
+            stock_bars: Underlying minute bars
             call_bars: Call option minute bars
             put_bars: Put option minute bars
             date: Trading date
@@ -291,10 +312,10 @@ class DataEngine:
         severity = 'none'
 
         # 1. Completeness checks
-        expected_spy_bars = 390  # 9:30 AM - 4:00 PM
-        if len(spy_bars) < 380:
-            issues.append(f"Missing SPY bars: {len(spy_bars)}/390")
-            severity = 'minor' if len(spy_bars) > 350 else 'major'
+        expected_bars = 390  # 9:30 AM - 4:00 PM
+        if len(stock_bars) < 380:
+            issues.append(f"Missing {self.symbol} bars: {len(stock_bars)}/390")
+            severity = 'minor' if len(stock_bars) > 350 else 'major'
 
         if len(call_bars) < 300:
             issues.append(f"Low call bar count: {len(call_bars)}")
@@ -305,18 +326,18 @@ class DataEngine:
             severity = max(severity, 'minor')
 
         # 2. Price sanity checks
-        if not spy_bars.empty:
-            spy_close = spy_bars['close']
-            spy_range = spy_close.max() - spy_close.min()
-            spy_pct_range = spy_range / spy_close.mean()
+        if not stock_bars.empty:
+            stock_close = stock_bars['close']
+            stock_range = stock_close.max() - stock_close.min()
+            stock_pct_range = stock_range / stock_close.mean()
 
-            if spy_pct_range > 0.10:  # >10% intraday move
-                issues.append(f"Large SPY move: {spy_pct_range:.1%}")
-                severity = max(severity, 'minor')  # May be valid (volatile day)
+            if stock_pct_range > 0.10:  # >10% intraday move
+                issues.append(f"Large {self.symbol} move: {stock_pct_range:.1%}")
+                severity = max(severity, 'minor')
 
             # Check for zero or negative prices
-            if (spy_close <= 0).any():
-                issues.append("Invalid SPY prices (<=0)")
+            if (stock_close <= 0).any():
+                issues.append(f"Invalid {self.symbol} prices (<=0)")
                 severity = 'critical'
 
         # 3. Option price sanity
@@ -326,15 +347,15 @@ class DataEngine:
                 issues.append("Very low call prices (<$0.01)")
                 severity = max(severity, 'minor')
 
-            if (call_close > spy_bars['close'].mean() * 0.3).any():
-                issues.append("Suspiciously high call prices (>30% of SPY)")
+            if (call_close > stock_bars['close'].mean() * 0.3).any():
+                issues.append(f"Suspiciously high call prices (>30% of {self.symbol})")
                 severity = max(severity, 'major')
 
         # 4. Timestamp validation
-        if not spy_bars.empty:
-            spy_times = spy_bars['timestamp']
-            if not spy_times.is_monotonic_increasing:
-                issues.append("Non-monotonic timestamps in SPY data")
+        if not stock_bars.empty:
+            stock_times = stock_bars['timestamp']
+            if not stock_times.is_monotonic_increasing:
+                issues.append(f"Non-monotonic timestamps in {self.symbol} data")
                 severity = 'critical'
 
         # 5. Volume/liquidity checks
@@ -351,7 +372,7 @@ class DataEngine:
             'valid': valid,
             'issues': issues,
             'severity': severity,
-            'spy_bars': len(spy_bars),
+            'stock_bars': len(stock_bars),
             'call_bars': len(call_bars),
             'put_bars': len(put_bars)
         }
@@ -378,21 +399,21 @@ class DataEngine:
         print(f"\nFetching data for {date.strftime('%Y-%m-%d')}...")
 
         try:
-            # 1. Fetch SPY bars
-            spy_bars = self.fetch_spy_bars(date)
-            print(f"  SPY bars: {len(spy_bars)}")
+            # 1. Fetch stock bars
+            stock_bars = self.fetch_stock_bars(date)
+            print(f"  {self.symbol} bars: {len(stock_bars)}")
 
-            if spy_bars.empty:
-                raise ValueError("No SPY data available")
+            if stock_bars.empty:
+                raise ValueError(f"No {self.symbol} data available")
 
             # 2. Determine ATM strike (use 9:31 AM price)
-            open_price = spy_bars.iloc[1]['close'] if len(spy_bars) > 1 else spy_bars.iloc[0]['close']
+            open_price = stock_bars.iloc[1]['close'] if len(stock_bars) > 1 else stock_bars.iloc[0]['close']
             atm_strike = self.find_atm_strike(open_price)
-            print(f"  SPY price at open: ${open_price:.2f}, ATM strike: ${atm_strike}")
+            print(f"  {self.symbol} price at open: ${open_price:.2f}, ATM strike: ${atm_strike}")
 
             # 3. Construct option symbols
-            call_symbol = self.construct_option_symbol("SPY", date, atm_strike, "call")
-            put_symbol = self.construct_option_symbol("SPY", date, atm_strike, "put")
+            call_symbol = self.construct_option_symbol(self.symbol, date, atm_strike, "call")
+            put_symbol = self.construct_option_symbol(self.symbol, date, atm_strike, "put")
             print(f"  Call: {call_symbol}")
             print(f"  Put: {put_symbol}")
 
@@ -406,7 +427,7 @@ class DataEngine:
             print(f"  Risk-free rate: {risk_free_rate:.2%}")
 
             # 6. Validate data
-            validation = self.validate_data(spy_bars, call_bars, put_bars, date)
+            validation = self.validate_data(stock_bars, call_bars, put_bars, date)
             print(f"  Validation: {validation['severity'].upper()} - {len(validation['issues'])} issues")
 
             if not validation['valid']:
@@ -414,7 +435,7 @@ class DataEngine:
 
             return {
                 'date': date,
-                'spy_bars': spy_bars,
+                'stock_bars': stock_bars,
                 'call_symbol': call_symbol,
                 'put_symbol': put_symbol,
                 'call_bars': call_bars,

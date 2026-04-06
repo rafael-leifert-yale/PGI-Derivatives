@@ -46,15 +46,13 @@ class ExecutionModel:
         """
 
         if asset_type == 'stock':
-            # SPY is extremely liquid - penny spread
-            spread = 0.01
+            spread = self.config.get('stock_spread', 0.01)
             bid = mid_price - spread / 2
             ask = mid_price + spread / 2
             return bid, ask
 
         elif asset_type == 'option':
-            # Base spread as percentage of option price
-            base_spread_pct = 0.015  # 1.5% base spread
+            base_spread_pct = self.config.get('option_spread_pct', 0.015)
 
             # Adjust for time of day (wider at open/close)
             if current_time < time(10, 0):

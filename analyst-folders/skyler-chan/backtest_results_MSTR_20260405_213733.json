@@ -1,0 +1,388 @@
+{
+  "config": {
+    "symbol": "MSTR",
+    "contracts_per_straddle": 1,
+    "delta_threshold": 0.15,
+    "max_stock_position": 500,
+    "max_daily_loss": 2000,
+    "profit_target": 1500,
+    "stock_spread": 0.05,
+    "option_spread_pct": 0.025
+  },
+  "trading_days": 36,
+  "metrics": {
+    "total_days": 36,
+    "total_pnl": -2457.9920263903205,
+    "avg_daily_pnl": -68.27755628862002,
+    "median_daily_pnl": -18.373791293006434,
+    "std_daily_pnl": 383.914326198576,
+    "best_day": 993.2098052469955,
+    "worst_day": -724.407341346774,
+    "winning_days": 16,
+    "losing_days": 20,
+    "win_rate": 0.4444444444444444,
+    "sharpe_ratio": -2.8232147915230286
+  },
+  "daily_results": [
+    {
+      "date": "2024-09-20",
+      "daily_pnl": 421.69695416620743,
+      "transaction_costs": 5.3440710371845705,
+      "hedge_count": 44,
+      "entry_call": 1.9,
+      "entry_put": 2.45,
+      "exit_call": 2.79,
+      "exit_put": 0.55
+    },
+    {
+      "date": "2024-09-27",
+      "daily_pnl": -114.57129684070969,
+      "transaction_costs": 2.6035864794515033,
+      "hedge_count": 14,
+      "entry_call": 2.71,
+      "entry_put": 3.08,
+      "exit_call": 6.22,
+      "exit_put": 0.36
+    },
+    {
+      "date": "2024-10-04",
+      "daily_pnl": -120.7229494564308,
+      "transaction_costs": 2.390402856257732,
+      "hedge_count": 14,
+      "entry_call": 3.48,
+      "entry_put": 1.84,
+      "exit_call": 6.01,
+      "exit_put": 0.3
+    },
+    {
+      "date": "2024-10-18",
+      "daily_pnl": -251.37279190764457,
+      "transaction_costs": 1.9834428210828101,
+      "hedge_count": 6,
+      "entry_call": 2.81,
+      "entry_put": 5.51,
+      "exit_call": 11.3,
+      "exit_put": 0.24
+    },
+    {
+      "date": "2024-10-25",
+      "daily_pnl": -624.2853903875039,
+      "transaction_costs": 0.8012430060569625,
+      "hedge_count": 1,
+      "entry_call": 5.95,
+      "entry_put": 3.11,
+      "exit_call": 10.73,
+      "exit_put": 0.36
+    },
+    {
+      "date": "2024-11-01",
+      "daily_pnl": 461.888320890459,
+      "transaction_costs": 4.534946774813929,
+      "hedge_count": 18,
+      "entry_call": 8.2,
+      "entry_put": 2.14,
+      "exit_call": 1.35,
+      "exit_put": 6.45
+    },
+    {
+      "date": "2025-03-14",
+      "daily_pnl": -724.407341346774,
+      "transaction_costs": 0.9154759729640366,
+      "hedge_count": 1,
+      "entry_call": 7.05,
+      "entry_put": 3.25,
+      "exit_call": 18.3,
+      "exit_put": 0.29
+    },
+    {
+      "date": "2025-03-21",
+      "daily_pnl": 183.73177488168585,
+      "transaction_costs": 8.802235528836217,
+      "hedge_count": 52,
+      "entry_call": 3.36,
+      "entry_put": 7.0,
+      "exit_call": 1.31,
+      "exit_put": 6.3
+    },
+    {
+      "date": "2025-03-28",
+      "daily_pnl": -578.0408097851832,
+      "transaction_costs": 2.978089027205602,
+      "hedge_count": 13,
+      "entry_call": 4.0,
+      "entry_put": 5.45,
+      "exit_call": 0.12,
+      "exit_put": 17.8
+    },
+    {
+      "date": "2025-04-11",
+      "daily_pnl": -463.0428052340285,
+      "transaction_costs": 4.281118822957734,
+      "hedge_count": 17,
+      "entry_call": 5.5,
+      "entry_put": 7.45,
+      "exit_call": 11.6,
+      "exit_put": 1.05
+    },
+    {
+      "date": "2025-04-25",
+      "daily_pnl": -493.0980748577131,
+      "transaction_costs": 1.140344054121877,
+      "hedge_count": 1,
+      "entry_call": 7.0,
+      "entry_put": 2.0,
+      "exit_call": 18.2,
+      "exit_put": 0.07
+    },
+    {
+      "date": "2025-05-02",
+      "daily_pnl": 344.3077508768765,
+      "transaction_costs": 9.867323330895145,
+      "hedge_count": 38,
+      "entry_call": 5.55,
+      "entry_put": 4.55,
+      "exit_call": 7.03,
+      "exit_put": 1.0
+    },
+    {
+      "date": "2025-05-09",
+      "daily_pnl": -365.53400026653253,
+      "transaction_costs": 3.558445668207436,
+      "hedge_count": 13,
+      "entry_call": 4.4,
+      "entry_put": 5.11,
+      "exit_call": 0.67,
+      "exit_put": 9.56
+    },
+    {
+      "date": "2025-05-16",
+      "daily_pnl": 233.55412638594862,
+      "transaction_costs": 9.262936770891525,
+      "hedge_count": 31,
+      "entry_call": 6.1,
+      "entry_put": 4.16,
+      "exit_call": 3.95,
+      "exit_put": 2.49
+    },
+    {
+      "date": "2025-05-23",
+      "daily_pnl": -520.5195583022432,
+      "transaction_costs": 1.180117683,
+      "hedge_count": 1,
+      "entry_call": 2.0,
+      "entry_put": 12.35,
+      "exit_call": 0.18,
+      "exit_put": 30.55
+    },
+    {
+      "date": "2025-05-30",
+      "daily_pnl": 3.3225325230887393,
+      "transaction_costs": 4.331620203165831,
+      "hedge_count": 18,
+      "entry_call": 3.5,
+      "entry_put": 5.5,
+      "exit_call": 1.7,
+      "exit_put": 4.05
+    },
+    {
+      "date": "2025-06-06",
+      "daily_pnl": 86.64000187792408,
+      "transaction_costs": 4.290489842388713,
+      "hedge_count": 17,
+      "entry_call": 2.16,
+      "entry_put": 6.0,
+      "exit_call": 2.0,
+      "exit_put": 1.98
+    },
+    {
+      "date": "2025-06-20",
+      "daily_pnl": 993.2098052469955,
+      "transaction_costs": 13.71101731919806,
+      "hedge_count": 61,
+      "entry_call": 6.05,
+      "entry_put": 1.46,
+      "exit_call": 3.15,
+      "exit_put": 1.18
+    },
+    {
+      "date": "2025-06-27",
+      "daily_pnl": 265.8607970034209,
+      "transaction_costs": 5.849273894784379,
+      "hedge_count": 24,
+      "entry_call": 1.18,
+      "entry_put": 6.45,
+      "exit_call": 7.52,
+      "exit_put": 0.47
+    },
+    {
+      "date": "2025-07-11",
+      "daily_pnl": -298.5265066131251,
+      "transaction_costs": 1.8723446022592725,
+      "hedge_count": 5,
+      "entry_call": 1.53,
+      "entry_put": 11.65,
+      "exit_call": 0.32,
+      "exit_put": 12.8
+    },
+    {
+      "date": "2025-07-18",
+      "daily_pnl": -488.71740834530647,
+      "transaction_costs": 3.839326104690902,
+      "hedge_count": 15,
+      "entry_call": 6.5,
+      "entry_put": 3.05,
+      "exit_call": 0.31,
+      "exit_put": 19.3
+    },
+    {
+      "date": "2025-07-25",
+      "daily_pnl": -316.01764779363293,
+      "transaction_costs": 1.2790304776261148,
+      "hedge_count": 1,
+      "entry_call": 6.8,
+      "entry_put": 2.25,
+      "exit_call": 7.1,
+      "exit_put": 0.57
+    },
+    {
+      "date": "2025-08-01",
+      "daily_pnl": -397.14385534089524,
+      "transaction_costs": 3.426594395672149,
+      "hedge_count": 11,
+      "entry_call": 4.95,
+      "entry_put": 6.0,
+      "exit_call": 1.24,
+      "exit_put": 6.0
+    },
+    {
+      "date": "2025-08-08",
+      "daily_pnl": 179.80780321434577,
+      "transaction_costs": 9.710938134849378,
+      "hedge_count": 40,
+      "entry_call": 3.14,
+      "entry_put": 5.15,
+      "exit_call": 0.85,
+      "exit_put": 6.0
+    },
+    {
+      "date": "2025-08-15",
+      "daily_pnl": -677.2307572436403,
+      "transaction_costs": 1.1082088611575003,
+      "hedge_count": 1,
+      "entry_call": 3.65,
+      "entry_put": 6.4,
+      "exit_call": 0.43,
+      "exit_put": 7.95
+    },
+    {
+      "date": "2025-08-22",
+      "daily_pnl": -2.012972313510545,
+      "transaction_costs": 2.0167553178773843,
+      "hedge_count": 3,
+      "entry_call": 1.68,
+      "entry_put": 8.74,
+      "exit_call": 16.15,
+      "exit_put": 0.12
+    },
+    {
+      "date": "2025-09-05",
+      "daily_pnl": 232.7678084042709,
+      "transaction_costs": 3.4328708368747227,
+      "hedge_count": 14,
+      "entry_call": 6.43,
+      "entry_put": 4.22,
+      "exit_call": 4.2,
+      "exit_put": 5.75
+    },
+    {
+      "date": "2025-09-12",
+      "daily_pnl": 383.3795528077899,
+      "transaction_costs": 8.565959072762169,
+      "hedge_count": 48,
+      "entry_call": 2.85,
+      "entry_put": 3.7,
+      "exit_call": 2.68,
+      "exit_put": 1.35
+    },
+    {
+      "date": "2025-09-19",
+      "daily_pnl": -43.80661432779016,
+      "transaction_costs": 3.280377323103756,
+      "hedge_count": 14,
+      "entry_call": 1.79,
+      "entry_put": 6.55,
+      "exit_call": 0.28,
+      "exit_put": 9.0
+    },
+    {
+      "date": "2025-09-26",
+      "daily_pnl": 43.33089166540594,
+      "transaction_costs": 10.446744246031466,
+      "hedge_count": 64,
+      "entry_call": 3.68,
+      "entry_put": 5.4,
+      "exit_call": 4.25,
+      "exit_put": 0.97
+    },
+    {
+      "date": "2025-10-03",
+      "daily_pnl": -4.033996470061538,
+      "transaction_costs": 7.469953616802473,
+      "hedge_count": 40,
+      "entry_call": 3.5,
+      "entry_put": 3.3,
+      "exit_call": 5.03,
+      "exit_put": 0.55
+    },
+    {
+      "date": "2025-10-10",
+      "daily_pnl": -32.71358611595133,
+      "transaction_costs": 6.751686519132079,
+      "hedge_count": 32,
+      "entry_call": 5.8,
+      "entry_put": 3.5,
+      "exit_call": 0.53,
+      "exit_put": 10.63
+    },
+    {
+      "date": "2025-10-24",
+      "daily_pnl": 494.7289664789969,
+      "transaction_costs": 12.53966228611393,
+      "hedge_count": 69,
+      "entry_call": 4.1,
+      "entry_put": 3.5,
+      "exit_call": 1.16,
+      "exit_put": 3.1
+    },
+    {
+      "date": "2025-10-31",
+      "daily_pnl": 9.266810641740449,
+      "transaction_costs": 3.818286832832644,
+      "hedge_count": 24,
+      "entry_call": 2.57,
+      "entry_put": 6.43,
+      "exit_call": 4.4,
+      "exit_put": 1.09
+    },
+    {
+      "date": "2026-03-13",
+      "daily_pnl": 6.834870277698428,
+      "transaction_costs": 0.5583432932701231,
+      "hedge_count": 1,
+      "entry_call": 6.24,
+      "entry_put": 0.36,
+      "exit_call": 2.65,
+      "exit_put": 0.53
+    },
+    {
+      "date": "2026-03-27",
+      "daily_pnl": -286.5224307844983,
+      "transaction_costs": 0.5007192501783,
+      "hedge_count": 2,
+      "entry_call": 2.0,
+      "entry_put": 1.87,
+      "exit_call": 0.21,
+      "exit_put": 3.55
+    }
+  ]
+}

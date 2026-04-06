@@ -25,7 +25,8 @@ class BacktestOrchestrator:
 
     def __init__(self, config: Dict):
         self.config = config
-        self.data_engine = DataEngine()
+        self.symbol = config.get('symbol', 'SPY')
+        self.data_engine = DataEngine(symbol=self.symbol, config=config)
         self.results = []
 
     def run_backtest(self, start_date: str, end_date: str) -> Dict:
@@ -43,6 +44,7 @@ class BacktestOrchestrator:
         print("ZERO-DTE GAMMA SCALPING BACKTEST")
         print("="*70)
         print(f"Period: {start_date} to {end_date}")
+        print(f"Underlying: {self.symbol}")
         print(f"Strategy: Long ATM Straddle + Delta-Neutral Hedging")
         print(f"Delta Threshold: ±{self.config.get('delta_threshold', 0.15)}")
         print("="*70 + "\n")
@@ -138,10 +140,10 @@ class BacktestOrchestrator:
             return None
 
     def _merge_data(self, data: Dict) -> Optional[pd.DataFrame]:
-        """Merge SPY and option data on timestamp"""
+        """Merge stock and option data on timestamp"""
         try:
-            spy = data['spy_bars'].copy()
-            spy.columns = ['timestamp', 'spy_open', 'spy_high', 'spy_low', 'spy_close', 'spy_volume']
+            stock = data['stock_bars'].copy()
+            stock.columns = ['timestamp', 'stock_open', 'stock_high', 'stock_low', 'stock_close', 'stock_volume']
 
             call = data['call_bars'].copy()
             if len(call) > 0:
@@ -158,12 +160,12 @@ class BacktestOrchestrator:
                 return None
 
             # Merge on timestamp
-            merged = spy.merge(call, on='timestamp', how='left')
+            merged = stock.merge(call, on='timestamp', how='left')
             merged = merged.merge(put, on='timestamp', how='left')
 
             # Forward-fill missing option prices
-            merged['call_close'] = merged['call_close'].fillna(method='ffill')
-            merged['put_close'] = merged['put_close'].fillna(method='ffill')
+            merged['call_close'] = merged['call_close'].ffill()
+            merged['put_close'] = merged['put_close'].ffill()
 
             # Drop rows with NaN (beginning of day)
             merged = merged.dropna()
@@ -199,7 +201,7 @@ class BacktestOrchestrator:
         # Main loop: Monitor and hedge
         for idx, row in data.iterrows():
             timestamp = row['timestamp']
-            spy_price = row['spy_close']
+            stock_price = row['stock_close']
             call_price = row['call_close']
             put_price = row['put_close']
 
@@ -215,14 +217,14 @@ class BacktestOrchestrator:
             iv = 0.25  # Simplified: assume 25% IV
 
             # Calculate Greeks
-            greeks = engine.calculate_portfolio_greeks(spy_price, time_left, risk_free_rate, iv)
+            greeks = engine.calculate_portfolio_greeks(stock_price, time_left, risk_free_rate, iv)
 
             # Check if hedge needed
             hedge_size = engine.calculate_hedge_size(greeks['delta'])
 
             if hedge_size != 0:
-                spy_volume = row.get('spy_volume', 10000)
-                engine.execute_hedge(hedge_size, spy_price, timestamp, volume=spy_volume)
+                stock_volume = row.get('stock_volume', 10000)
+                engine.execute_hedge(hedge_size, stock_price, timestamp, volume=stock_volume)
                 hedge_count += 1
 
         # Exit: Last row (before 4pm)
@@ -233,7 +235,7 @@ class BacktestOrchestrator:
         engine.close_all_positions(
             exit_row['call_close'],
             exit_row['put_close'],
-            exit_row['spy_close'],
+            exit_row['stock_close'],
             exit_time,
             volume=exit_call_volume
         )
