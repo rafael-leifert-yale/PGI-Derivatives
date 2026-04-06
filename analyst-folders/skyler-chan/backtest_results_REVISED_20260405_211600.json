@@ -1,0 +1,2093 @@
+{
+  "config": {
+    "contracts_per_straddle": 1,
+    "delta_threshold": 0.05,
+    "max_stock_position": 500,
+    "max_daily_loss": 2000,
+    "profit_target": 1500
+  },
+  "period": {
+    "start": "2024-03-01",
+    "end": "2026-04-05"
+  },
+  "metrics": {
+    "total_days": 343,
+    "total_pnl": -8333.028048777687,
+    "avg_daily_pnl": -24.29454241626148,
+    "median_daily_pnl": -34.27250554016064,
+    "std_daily_pnl": 113.06604226805389,
+    "best_day": 791.0404384002031,
+    "worst_day": -389.6164689444777,
+    "winning_days": 84,
+    "losing_days": 259,
+    "win_rate": 0.24489795918367346,
+    "sharpe_ratio": -3.410961390006977
+  },
+  "execution_metrics": {
+    "total_transaction_costs": 1762.4506540292025,
+    "total_hedges": 16032,
+    "avg_hedges_per_day": 46.74052478134111,
+    "cost_pct_of_pnl": 21.15018266724452
+  },
+  "daily_results": [
+    {
+      "date": "2024-03-11",
+      "daily_pnl": 51.60337996916496,
+      "transaction_costs": 5.69496124101351,
+      "hedge_count": 70
+    },
+    {
+      "date": "2024-03-12",
+      "daily_pnl": -2.702614520196221,
+      "transaction_costs": 3.6260855822671294,
+      "hedge_count": 34
+    },
+    {
+      "date": "2024-03-13",
+      "daily_pnl": -14.861805936328892,
+      "transaction_costs": 4.041752768569112,
+      "hedge_count": 52
+    },
+    {
+      "date": "2024-03-14",
+      "daily_pnl": -26.199632748845033,
+      "transaction_costs": 1.90727327867157,
+      "hedge_count": 15
+    },
+    {
+      "date": "2024-03-18",
+      "daily_pnl": -24.037363117502537,
+      "transaction_costs": 1.6707557311996162,
+      "hedge_count": 8
+    },
+    {
+      "date": "2024-03-19",
+      "daily_pnl": -72.05199014435493,
+      "transaction_costs": 4.054857843615657,
+      "hedge_count": 52
+    },
+    {
+      "date": "2024-03-20",
+      "daily_pnl": -13.279692907563003,
+      "transaction_costs": 2.702572318870951,
+      "hedge_count": 32
+    },
+    {
+      "date": "2024-03-21",
+      "daily_pnl": -22.11491915458464,
+      "transaction_costs": 2.7246330415781634,
+      "hedge_count": 32
+    },
+    {
+      "date": "2024-03-22",
+      "daily_pnl": -31.093562333211594,
+      "transaction_costs": 2.5681241588988035,
+      "hedge_count": 29
+    },
+    {
+      "date": "2024-03-25",
+      "daily_pnl": -50.55480146750779,
+      "transaction_costs": 4.101933807750953,
+      "hedge_count": 50
+    },
+    {
+      "date": "2024-03-26",
+      "daily_pnl": -39.169663300024695,
+      "transaction_costs": 2.773641234356535,
+      "hedge_count": 35
+    },
+    {
+      "date": "2024-03-27",
+      "daily_pnl": -8.737153296657198,
+      "transaction_costs": 3.551614285178804,
+      "hedge_count": 43
+    },
+    {
+      "date": "2024-03-28",
+      "daily_pnl": -44.425582738047524,
+      "transaction_costs": 2.322238824090265,
+      "hedge_count": 26
+    },
+    {
+      "date": "2024-04-01",
+      "daily_pnl": -9.412567239734926,
+      "transaction_costs": 2.391428158162438,
+      "hedge_count": 23
+    },
+    {
+      "date": "2024-04-02",
+      "daily_pnl": -24.904862627910916,
+      "transaction_costs": 1.5326022911385602,
+      "hedge_count": 2
+    },
+    {
+      "date": "2024-04-03",
+      "daily_pnl": -12.995968040595471,
+      "transaction_costs": 1.9813842582852392,
+      "hedge_count": 17
+    },
+    {
+      "date": "2024-04-04",
+      "daily_pnl": -48.67105042128969,
+      "transaction_costs": 1.771127309534289,
+      "hedge_count": 10
+    },
+    {
+      "date": "2024-04-05",
+      "daily_pnl": -116.35397939794348,
+      "transaction_costs": 5.021603784731084,
+      "hedge_count": 49
+    },
+    {
+      "date": "2024-04-08",
+      "daily_pnl": 39.30629523901007,
+      "transaction_costs": 4.50431833117825,
+      "hedge_count": 52
+    },
+    {
+      "date": "2024-04-09",
+      "daily_pnl": 37.206075884387246,
+      "transaction_costs": 2.8482618248517566,
+      "hedge_count": 24
+    },
+    {
+      "date": "2024-04-10",
+      "daily_pnl": -34.69764183730149,
+      "transaction_costs": 1.5802987386,
+      "hedge_count": 1
+    },
+    {
+      "date": "2024-04-11",
+      "daily_pnl": -10.788041278385208,
+      "transaction_costs": 8.719751270375173,
+      "hedge_count": 86
+    },
+    {
+      "date": "2024-04-12",
+      "daily_pnl": -56.132902926365205,
+      "transaction_costs": 1.8589793479527712,
+      "hedge_count": 9
+    },
+    {
+      "date": "2024-04-15",
+      "daily_pnl": 91.7921560948671,
+      "transaction_costs": 6.846439965815221,
+      "hedge_count": 70
+    },
+    {
+      "date": "2024-04-16",
+      "daily_pnl": 142.73624766828289,
+      "transaction_costs": 9.918903556292832,
+      "hedge_count": 90
+    },
+    {
+      "date": "2024-04-17",
+      "daily_pnl": -94.92919629982498,
+      "transaction_costs": 4.707581570684588,
+      "hedge_count": 50
+    },
+    {
+      "date": "2024-04-18",
+      "daily_pnl": -43.43731326913985,
+      "transaction_costs": 4.40416238889745,
+      "hedge_count": 46
+    },
+    {
+      "date": "2024-04-19",
+      "daily_pnl": 25.060148679986014,
+      "transaction_costs": 9.512380369896418,
+      "hedge_count": 98
+    },
+    {
+      "date": "2024-04-22",
+      "daily_pnl": 22.14144314918667,
+      "transaction_costs": 3.8166504575809426,
+      "hedge_count": 47
+    },
+    {
+      "date": "2024-04-23",
+      "daily_pnl": -71.66020539347664,
+      "transaction_costs": 1.7776534995454405,
+      "hedge_count": 11
+    },
+    {
+      "date": "2024-04-24",
+      "daily_pnl": -50.74568687772262,
+      "transaction_costs": 4.291136250928426,
+      "hedge_count": 56
+    },
+    {
+      "date": "2024-04-25",
+      "daily_pnl": -5.132249925394717,
+      "transaction_costs": 1.5010027925289402,
+      "hedge_count": 2
+    },
+    {
+      "date": "2024-04-26",
+      "daily_pnl": -5.815631295081403,
+      "transaction_costs": 4.861351149748027,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-04-29",
+      "daily_pnl": -34.27250554016064,
+      "transaction_costs": 4.9205722271439924,
+      "hedge_count": 62
+    },
+    {
+      "date": "2024-04-30",
+      "daily_pnl": -55.790075978024106,
+      "transaction_costs": 4.197641076549466,
+      "hedge_count": 48
+    },
+    {
+      "date": "2024-05-01",
+      "daily_pnl": 110.52731645753738,
+      "transaction_costs": 5.708469174375363,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-05-02",
+      "daily_pnl": 94.11499411186378,
+      "transaction_costs": 7.413484284737642,
+      "hedge_count": 78
+    },
+    {
+      "date": "2024-05-03",
+      "daily_pnl": -51.320374254770286,
+      "transaction_costs": 2.444662847566243,
+      "hedge_count": 19
+    },
+    {
+      "date": "2024-05-06",
+      "daily_pnl": -25.654821419557265,
+      "transaction_costs": 2.6209354331757893,
+      "hedge_count": 34
+    },
+    {
+      "date": "2024-05-07",
+      "daily_pnl": -34.923557694601186,
+      "transaction_costs": 3.2419544422702975,
+      "hedge_count": 43
+    },
+    {
+      "date": "2024-05-08",
+      "daily_pnl": -18.378483469747152,
+      "transaction_costs": 5.192462189661626,
+      "hedge_count": 63
+    },
+    {
+      "date": "2024-05-09",
+      "daily_pnl": -29.734783302053984,
+      "transaction_costs": 2.1230636262864127,
+      "hedge_count": 18
+    },
+    {
+      "date": "2024-05-10",
+      "daily_pnl": -5.261584655767365,
+      "transaction_costs": 3.4536516737063225,
+      "hedge_count": 40
+    },
+    {
+      "date": "2024-05-13",
+      "daily_pnl": -35.97386776303756,
+      "transaction_costs": 2.833177904127858,
+      "hedge_count": 37
+    },
+    {
+      "date": "2024-05-14",
+      "daily_pnl": -46.733211729129835,
+      "transaction_costs": 4.613332067643698,
+      "hedge_count": 60
+    },
+    {
+      "date": "2024-05-15",
+      "daily_pnl": -66.56227026159468,
+      "transaction_costs": 2.259396531145309,
+      "hedge_count": 18
+    },
+    {
+      "date": "2024-05-16",
+      "daily_pnl": -21.615650316605752,
+      "transaction_costs": 2.835544561110379,
+      "hedge_count": 35
+    },
+    {
+      "date": "2024-05-17",
+      "daily_pnl": -50.797164241557766,
+      "transaction_costs": 3.893255945471816,
+      "hedge_count": 55
+    },
+    {
+      "date": "2024-05-20",
+      "daily_pnl": -13.057103084342089,
+      "transaction_costs": 1.9007824787222183,
+      "hedge_count": 19
+    },
+    {
+      "date": "2024-05-21",
+      "daily_pnl": -35.322153918705226,
+      "transaction_costs": 2.9380189683952804,
+      "hedge_count": 41
+    },
+    {
+      "date": "2024-05-22",
+      "daily_pnl": 0.10830892490048427,
+      "transaction_costs": 2.59458328634392,
+      "hedge_count": 27
+    },
+    {
+      "date": "2024-05-23",
+      "daily_pnl": -0.9840610380633734,
+      "transaction_costs": 2.2938512685454038,
+      "hedge_count": 25
+    },
+    {
+      "date": "2024-05-24",
+      "daily_pnl": -25.23299343841063,
+      "transaction_costs": 3.348366582361072,
+      "hedge_count": 35
+    },
+    {
+      "date": "2024-05-28",
+      "daily_pnl": -15.379345029854449,
+      "transaction_costs": 2.816435417909118,
+      "hedge_count": 33
+    },
+    {
+      "date": "2024-05-29",
+      "daily_pnl": 9.568425623750954,
+      "transaction_costs": 5.074993502403295,
+      "hedge_count": 66
+    },
+    {
+      "date": "2024-05-30",
+      "daily_pnl": -16.706438045679533,
+      "transaction_costs": 5.811351926285457,
+      "hedge_count": 63
+    },
+    {
+      "date": "2024-05-31",
+      "daily_pnl": -53.13848620015051,
+      "transaction_costs": 4.332426350289763,
+      "hedge_count": 48
+    },
+    {
+      "date": "2024-06-03",
+      "daily_pnl": 14.497753788193222,
+      "transaction_costs": 5.054105405496453,
+      "hedge_count": 62
+    },
+    {
+      "date": "2024-06-04",
+      "daily_pnl": 65.34004679892678,
+      "transaction_costs": 5.880705864550914,
+      "hedge_count": 69
+    },
+    {
+      "date": "2024-06-05",
+      "daily_pnl": -60.48035230929236,
+      "transaction_costs": 2.833135719193974,
+      "hedge_count": 27
+    },
+    {
+      "date": "2024-06-06",
+      "daily_pnl": -15.870199879391294,
+      "transaction_costs": 4.860817896323622,
+      "hedge_count": 63
+    },
+    {
+      "date": "2024-06-07",
+      "daily_pnl": 28.834463700590277,
+      "transaction_costs": 6.521193931072055,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-06-10",
+      "daily_pnl": -70.96220429919777,
+      "transaction_costs": 2.4256903645380725,
+      "hedge_count": 27
+    },
+    {
+      "date": "2024-06-11",
+      "daily_pnl": 14.09573715015722,
+      "transaction_costs": 6.523474122754629,
+      "hedge_count": 65
+    },
+    {
+      "date": "2024-06-12",
+      "daily_pnl": -77.17802281566401,
+      "transaction_costs": 1.5968289852133948,
+      "hedge_count": 3
+    },
+    {
+      "date": "2024-06-13",
+      "daily_pnl": -9.790334637553315,
+      "transaction_costs": 5.703439165201681,
+      "hedge_count": 69
+    },
+    {
+      "date": "2024-06-14",
+      "daily_pnl": 9.978971911594272,
+      "transaction_costs": 7.438265378605732,
+      "hedge_count": 77
+    },
+    {
+      "date": "2024-06-17",
+      "daily_pnl": -34.40059136300988,
+      "transaction_costs": 4.456305757627341,
+      "hedge_count": 56
+    },
+    {
+      "date": "2024-06-18",
+      "daily_pnl": -36.15390985297563,
+      "transaction_costs": 4.614485678875399,
+      "hedge_count": 58
+    },
+    {
+      "date": "2024-06-20",
+      "daily_pnl": -37.43811203879159,
+      "transaction_costs": 4.064879501321506,
+      "hedge_count": 54
+    },
+    {
+      "date": "2024-06-21",
+      "daily_pnl": -53.30138577790058,
+      "transaction_costs": 6.821076208319813,
+      "hedge_count": 75
+    },
+    {
+      "date": "2024-06-24",
+      "daily_pnl": -6.261068385887484,
+      "transaction_costs": 5.390987174450755,
+      "hedge_count": 60
+    },
+    {
+      "date": "2024-06-25",
+      "daily_pnl": -18.978608481411356,
+      "transaction_costs": 4.927234689524177,
+      "hedge_count": 58
+    },
+    {
+      "date": "2024-06-26",
+      "daily_pnl": 31.191885558946524,
+      "transaction_costs": 2.751297740456537,
+      "hedge_count": 23
+    },
+    {
+      "date": "2024-06-27",
+      "daily_pnl": 34.97716632374795,
+      "transaction_costs": 6.615316489136284,
+      "hedge_count": 75
+    },
+    {
+      "date": "2024-06-28",
+      "daily_pnl": 35.12889659329085,
+      "transaction_costs": 7.8131054422851856,
+      "hedge_count": 79
+    },
+    {
+      "date": "2024-07-01",
+      "daily_pnl": 101.35973198209831,
+      "transaction_costs": 10.029714757446547,
+      "hedge_count": 88
+    },
+    {
+      "date": "2024-07-02",
+      "daily_pnl": -20.34707029096171,
+      "transaction_costs": 2.6277886441574365,
+      "hedge_count": 29
+    },
+    {
+      "date": "2024-07-03",
+      "daily_pnl": -58.925173346207885,
+      "transaction_costs": 3.4772956847214758,
+      "hedge_count": 45
+    },
+    {
+      "date": "2024-07-05",
+      "daily_pnl": -30.116776240181935,
+      "transaction_costs": 4.591710186035293,
+      "hedge_count": 54
+    },
+    {
+      "date": "2024-07-08",
+      "daily_pnl": -20.587867340283992,
+      "transaction_costs": 2.7542720614741634,
+      "hedge_count": 29
+    },
+    {
+      "date": "2024-07-09",
+      "daily_pnl": -42.033402957102226,
+      "transaction_costs": 3.8962696308281934,
+      "hedge_count": 49
+    },
+    {
+      "date": "2024-07-10",
+      "daily_pnl": -53.586243953206576,
+      "transaction_costs": 3.238540664706353,
+      "hedge_count": 41
+    },
+    {
+      "date": "2024-07-11",
+      "daily_pnl": -60.44333263038425,
+      "transaction_costs": 4.057186538282566,
+      "hedge_count": 39
+    },
+    {
+      "date": "2024-07-12",
+      "daily_pnl": -50.280216413055314,
+      "transaction_costs": 2.150527583717644,
+      "hedge_count": 18
+    },
+    {
+      "date": "2024-07-15",
+      "daily_pnl": -15.770422489200428,
+      "transaction_costs": 3.3957588338927978,
+      "hedge_count": 41
+    },
+    {
+      "date": "2024-07-16",
+      "daily_pnl": -14.518462979074684,
+      "transaction_costs": 4.404816319237623,
+      "hedge_count": 47
+    },
+    {
+      "date": "2024-07-17",
+      "daily_pnl": -6.433417186519364,
+      "transaction_costs": 4.897310404991145,
+      "hedge_count": 55
+    },
+    {
+      "date": "2024-07-18",
+      "daily_pnl": -73.71209628063662,
+      "transaction_costs": 5.161158643806186,
+      "hedge_count": 53
+    },
+    {
+      "date": "2024-07-19",
+      "daily_pnl": 18.612067761758226,
+      "transaction_costs": 7.329868947744018,
+      "hedge_count": 79
+    },
+    {
+      "date": "2024-07-22",
+      "daily_pnl": 32.096374403947266,
+      "transaction_costs": 6.64452295741634,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-07-23",
+      "daily_pnl": -23.31479703304649,
+      "transaction_costs": 5.453066743254248,
+      "hedge_count": 63
+    },
+    {
+      "date": "2024-07-24",
+      "daily_pnl": -96.74191204187082,
+      "transaction_costs": 1.7912645748246079,
+      "hedge_count": 14
+    },
+    {
+      "date": "2024-07-25",
+      "daily_pnl": -26.613798250065884,
+      "transaction_costs": 6.36156038040165,
+      "hedge_count": 56
+    },
+    {
+      "date": "2024-07-26",
+      "daily_pnl": 30.199407856402104,
+      "transaction_costs": 10.583171686070557,
+      "hedge_count": 94
+    },
+    {
+      "date": "2024-07-29",
+      "daily_pnl": 95.57196111980011,
+      "transaction_costs": 6.182491136138626,
+      "hedge_count": 57
+    },
+    {
+      "date": "2024-07-30",
+      "daily_pnl": -93.41677827209787,
+      "transaction_costs": 5.330155917206104,
+      "hedge_count": 56
+    },
+    {
+      "date": "2024-07-31",
+      "daily_pnl": -119.1912827504566,
+      "transaction_costs": 2.816992973294101,
+      "hedge_count": 23
+    },
+    {
+      "date": "2024-08-01",
+      "daily_pnl": -112.47985590265307,
+      "transaction_costs": 5.372368225034614,
+      "hedge_count": 47
+    },
+    {
+      "date": "2024-08-02",
+      "daily_pnl": -143.42197022605978,
+      "transaction_costs": 3.597428525458525,
+      "hedge_count": 23
+    },
+    {
+      "date": "2024-08-05",
+      "daily_pnl": 790.2169041859524,
+      "transaction_costs": 16.10622465009946,
+      "hedge_count": 78
+    },
+    {
+      "date": "2024-08-06",
+      "daily_pnl": -331.2397136048312,
+      "transaction_costs": 3.3146634288692436,
+      "hedge_count": 17
+    },
+    {
+      "date": "2024-08-07",
+      "daily_pnl": 148.47868839270086,
+      "transaction_costs": 9.426701969080426,
+      "hedge_count": 72
+    },
+    {
+      "date": "2024-08-09",
+      "daily_pnl": -62.85964208495716,
+      "transaction_costs": 4.497797886333292,
+      "hedge_count": 44
+    },
+    {
+      "date": "2024-08-12",
+      "daily_pnl": 86.10772988547251,
+      "transaction_costs": 8.194872366560427,
+      "hedge_count": 75
+    },
+    {
+      "date": "2024-08-13",
+      "daily_pnl": -101.69483083850355,
+      "transaction_costs": 3.4651918063542277,
+      "hedge_count": 35
+    },
+    {
+      "date": "2024-08-14",
+      "daily_pnl": -133.5822152824112,
+      "transaction_costs": 5.974229217668691,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-08-15",
+      "daily_pnl": -54.63406153615506,
+      "transaction_costs": 1.6352665839120568,
+      "hedge_count": 1
+    },
+    {
+      "date": "2024-08-16",
+      "daily_pnl": -0.9584635257269838,
+      "transaction_costs": 4.658293450027873,
+      "hedge_count": 50
+    },
+    {
+      "date": "2024-08-19",
+      "daily_pnl": -40.66683910215215,
+      "transaction_costs": 3.494152969629067,
+      "hedge_count": 33
+    },
+    {
+      "date": "2024-08-20",
+      "daily_pnl": 34.54654201999074,
+      "transaction_costs": 3.5823166741373447,
+      "hedge_count": 37
+    },
+    {
+      "date": "2024-08-21",
+      "daily_pnl": 74.719394676722,
+      "transaction_costs": 8.398988586181696,
+      "hedge_count": 68
+    },
+    {
+      "date": "2024-08-22",
+      "daily_pnl": -42.78795867410372,
+      "transaction_costs": 6.535191026858156,
+      "hedge_count": 65
+    },
+    {
+      "date": "2024-08-23",
+      "daily_pnl": 166.12413365546672,
+      "transaction_costs": 6.198438704574338,
+      "hedge_count": 49
+    },
+    {
+      "date": "2024-08-26",
+      "daily_pnl": -47.62838563391415,
+      "transaction_costs": 3.61138405350394,
+      "hedge_count": 38
+    },
+    {
+      "date": "2024-08-27",
+      "daily_pnl": -20.04570985405735,
+      "transaction_costs": 6.805366412491324,
+      "hedge_count": 78
+    },
+    {
+      "date": "2024-08-28",
+      "daily_pnl": -164.07930062924424,
+      "transaction_costs": 2.852347698843234,
+      "hedge_count": 32
+    },
+    {
+      "date": "2024-08-29",
+      "daily_pnl": -100.98906661542424,
+      "transaction_costs": 3.876921089747515,
+      "hedge_count": 36
+    },
+    {
+      "date": "2024-08-30",
+      "daily_pnl": -33.79237988907698,
+      "transaction_costs": 6.599453448236587,
+      "hedge_count": 67
+    },
+    {
+      "date": "2024-09-03",
+      "daily_pnl": -82.57822695898358,
+      "transaction_costs": 1.9840752326474007,
+      "hedge_count": 15
+    },
+    {
+      "date": "2024-09-04",
+      "daily_pnl": 26.092724883368646,
+      "transaction_costs": 4.7280465728535095,
+      "hedge_count": 42
+    },
+    {
+      "date": "2024-09-05",
+      "daily_pnl": -115.67886607787659,
+      "transaction_costs": 6.062900225199636,
+      "hedge_count": 62
+    },
+    {
+      "date": "2024-09-06",
+      "daily_pnl": -7.772830133595562,
+      "transaction_costs": 5.409025902473415,
+      "hedge_count": 44
+    },
+    {
+      "date": "2024-09-09",
+      "daily_pnl": -113.4074031344644,
+      "transaction_costs": 6.384169496619866,
+      "hedge_count": 65
+    },
+    {
+      "date": "2024-09-10",
+      "daily_pnl": 112.54422452051222,
+      "transaction_costs": 6.607361523953772,
+      "hedge_count": 54
+    },
+    {
+      "date": "2024-09-11",
+      "daily_pnl": -36.93628528490808,
+      "transaction_costs": 3.07997912479005,
+      "hedge_count": 22
+    },
+    {
+      "date": "2024-09-12",
+      "daily_pnl": 84.35941062593338,
+      "transaction_costs": 8.587056811501757,
+      "hedge_count": 76
+    },
+    {
+      "date": "2024-09-13",
+      "daily_pnl": -116.8481456569134,
+      "transaction_costs": 4.136311942841703,
+      "hedge_count": 46
+    },
+    {
+      "date": "2024-09-16",
+      "daily_pnl": -19.612418569005968,
+      "transaction_costs": 4.297422108753873,
+      "hedge_count": 45
+    },
+    {
+      "date": "2024-09-17",
+      "daily_pnl": -14.021986884366925,
+      "transaction_costs": 7.550742167699304,
+      "hedge_count": 83
+    },
+    {
+      "date": "2024-09-18",
+      "daily_pnl": -70.2458508847194,
+      "transaction_costs": 3.6169778607200347,
+      "hedge_count": 40
+    },
+    {
+      "date": "2024-09-19",
+      "daily_pnl": 35.219046038262604,
+      "transaction_costs": 8.991482626834326,
+      "hedge_count": 87
+    },
+    {
+      "date": "2024-09-20",
+      "daily_pnl": -69.22781999487779,
+      "transaction_costs": 4.917498126198886,
+      "hedge_count": 59
+    },
+    {
+      "date": "2024-09-23",
+      "daily_pnl": -26.234533787421242,
+      "transaction_costs": 6.213966313998055,
+      "hedge_count": 71
+    },
+    {
+      "date": "2024-09-24",
+      "daily_pnl": 33.91830812261469,
+      "transaction_costs": 4.506517754509668,
+      "hedge_count": 42
+    },
+    {
+      "date": "2024-09-25",
+      "daily_pnl": -38.78346511471318,
+      "transaction_costs": 3.8648778859444333,
+      "hedge_count": 40
+    },
+    {
+      "date": "2024-09-26",
+      "daily_pnl": -39.49303005476395,
+      "transaction_costs": 3.4684476162110363,
+      "hedge_count": 39
+    },
+    {
+      "date": "2024-09-27",
+      "daily_pnl": -3.1070635003998177,
+      "transaction_costs": 3.9272793634551237,
+      "hedge_count": 47
+    },
+    {
+      "date": "2024-09-30",
+      "daily_pnl": -76.7502038835155,
+      "transaction_costs": 5.844211639263659,
+      "hedge_count": 68
+    },
+    {
+      "date": "2024-10-01",
+      "daily_pnl": -48.09462218455883,
+      "transaction_costs": 1.9273761638800346,
+      "hedge_count": 13
+    },
+    {
+      "date": "2024-10-02",
+      "daily_pnl": -65.35413592270925,
+      "transaction_costs": 4.941080652191009,
+      "hedge_count": 51
+    },
+    {
+      "date": "2024-10-03",
+      "daily_pnl": 101.10405110895226,
+      "transaction_costs": 10.337036945886364,
+      "hedge_count": 87
+    },
+    {
+      "date": "2024-10-04",
+      "daily_pnl": 46.380643259646604,
+      "transaction_costs": 10.342987443636185,
+      "hedge_count": 82
+    },
+    {
+      "date": "2024-10-07",
+      "daily_pnl": -54.67809008023323,
+      "transaction_costs": 4.206205760570714,
+      "hedge_count": 49
+    },
+    {
+      "date": "2024-10-08",
+      "daily_pnl": -57.37813466082298,
+      "transaction_costs": 3.4755606434224458,
+      "hedge_count": 36
+    },
+    {
+      "date": "2024-10-09",
+      "daily_pnl": -88.72345468824642,
+      "transaction_costs": 2.824245750503125,
+      "hedge_count": 30
+    },
+    {
+      "date": "2024-10-10",
+      "daily_pnl": -90.76705914202466,
+      "transaction_costs": 7.329755676975223,
+      "hedge_count": 76
+    },
+    {
+      "date": "2024-10-11",
+      "daily_pnl": -65.0769779198672,
+      "transaction_costs": 1.9373824515214357,
+      "hedge_count": 13
+    },
+    {
+      "date": "2024-10-14",
+      "daily_pnl": -54.3163106536158,
+      "transaction_costs": 1.7379028625731288,
+      "hedge_count": 11
+    },
+    {
+      "date": "2024-10-15",
+      "daily_pnl": -65.74958305417385,
+      "transaction_costs": 3.6568968640433734,
+      "hedge_count": 42
+    },
+    {
+      "date": "2024-10-16",
+      "daily_pnl": -39.730122782573744,
+      "transaction_costs": 5.8162405405505115,
+      "hedge_count": 62
+    },
+    {
+      "date": "2024-10-17",
+      "daily_pnl": 9.234173950506374,
+      "transaction_costs": 8.23885132225334,
+      "hedge_count": 73
+    },
+    {
+      "date": "2024-10-18",
+      "daily_pnl": -55.32847452663009,
+      "transaction_costs": 5.25429727495407,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-10-21",
+      "daily_pnl": -24.05301077531476,
+      "transaction_costs": 2.9157201215952053,
+      "hedge_count": 29
+    },
+    {
+      "date": "2024-10-22",
+      "daily_pnl": -51.09020785818575,
+      "transaction_costs": 4.262164269753971,
+      "hedge_count": 48
+    },
+    {
+      "date": "2024-10-23",
+      "daily_pnl": -29.01692358681612,
+      "transaction_costs": 2.4904911667763394,
+      "hedge_count": 21
+    },
+    {
+      "date": "2024-10-24",
+      "daily_pnl": -53.55188947530405,
+      "transaction_costs": 4.488760538722913,
+      "hedge_count": 47
+    },
+    {
+      "date": "2024-10-25",
+      "daily_pnl": 46.83817613306019,
+      "transaction_costs": 2.5500283892900435,
+      "hedge_count": 20
+    },
+    {
+      "date": "2024-10-28",
+      "daily_pnl": -63.22432260296773,
+      "transaction_costs": 5.663902498669358,
+      "hedge_count": 61
+    },
+    {
+      "date": "2024-10-29",
+      "daily_pnl": -3.6604686029968434,
+      "transaction_costs": 8.62533181280971,
+      "hedge_count": 81
+    },
+    {
+      "date": "2024-10-30",
+      "daily_pnl": -2.976752709789622,
+      "transaction_costs": 6.4827434630685286,
+      "hedge_count": 74
+    },
+    {
+      "date": "2024-10-31",
+      "daily_pnl": -121.8309549657788,
+      "transaction_costs": 3.2558669161112364,
+      "hedge_count": 33
+    },
+    {
+      "date": "2024-11-01",
+      "daily_pnl": -101.6347914493017,
+      "transaction_costs": 2.217592146736682,
+      "hedge_count": 21
+    },
+    {
+      "date": "2025-03-10",
+      "daily_pnl": -238.02785863678582,
+      "transaction_costs": 2.7864209747856177,
+      "hedge_count": 19
+    },
+    {
+      "date": "2025-03-11",
+      "daily_pnl": -148.02249338956608,
+      "transaction_costs": 4.677809419392878,
+      "hedge_count": 29
+    },
+    {
+      "date": "2025-03-12",
+      "daily_pnl": 11.46236067947757,
+      "transaction_costs": 6.702787721045479,
+      "hedge_count": 53
+    },
+    {
+      "date": "2025-03-13",
+      "daily_pnl": -135.53899242568878,
+      "transaction_costs": 7.325131477230806,
+      "hedge_count": 61
+    },
+    {
+      "date": "2025-03-14",
+      "daily_pnl": -192.65240930887376,
+      "transaction_costs": 5.582036124590191,
+      "hedge_count": 50
+    },
+    {
+      "date": "2025-03-17",
+      "daily_pnl": -145.7619924874889,
+      "transaction_costs": 1.8796967443523753,
+      "hedge_count": 10
+    },
+    {
+      "date": "2025-03-18",
+      "daily_pnl": -160.18696575088688,
+      "transaction_costs": 1.7571116718817046,
+      "hedge_count": 6
+    },
+    {
+      "date": "2025-03-19",
+      "daily_pnl": -148.63193251346092,
+      "transaction_costs": 3.62341348527186,
+      "hedge_count": 36
+    },
+    {
+      "date": "2025-03-20",
+      "daily_pnl": 148.4928714296766,
+      "transaction_costs": 8.42995773462331,
+      "hedge_count": 75
+    },
+    {
+      "date": "2025-03-21",
+      "daily_pnl": -128.82529896757478,
+      "transaction_costs": 5.240999346950011,
+      "hedge_count": 54
+    },
+    {
+      "date": "2025-03-24",
+      "daily_pnl": -149.35743423469103,
+      "transaction_costs": 1.9539653323775594,
+      "hedge_count": 16
+    },
+    {
+      "date": "2025-03-25",
+      "daily_pnl": -54.09531486609194,
+      "transaction_costs": 2.8789231775993716,
+      "hedge_count": 24
+    },
+    {
+      "date": "2025-03-26",
+      "daily_pnl": -88.99272733897669,
+      "transaction_costs": 4.217454976341426,
+      "hedge_count": 46
+    },
+    {
+      "date": "2025-03-27",
+      "daily_pnl": 46.94091970332374,
+      "transaction_costs": 9.858283027137945,
+      "hedge_count": 92
+    },
+    {
+      "date": "2025-03-28",
+      "daily_pnl": -187.7274668445316,
+      "transaction_costs": 3.118833339960683,
+      "hedge_count": 22
+    },
+    {
+      "date": "2025-03-31",
+      "daily_pnl": -128.43802557027084,
+      "transaction_costs": 8.856165461441782,
+      "hedge_count": 77
+    },
+    {
+      "date": "2025-04-01",
+      "daily_pnl": 60.22918832644791,
+      "transaction_costs": 8.101160822017563,
+      "hedge_count": 67
+    },
+    {
+      "date": "2025-04-02",
+      "daily_pnl": 169.3971082805947,
+      "transaction_costs": 8.612256803801975,
+      "hedge_count": 72
+    },
+    {
+      "date": "2025-04-03",
+      "daily_pnl": -138.75837240151304,
+      "transaction_costs": 4.07317241261787,
+      "hedge_count": 27
+    },
+    {
+      "date": "2025-04-04",
+      "daily_pnl": -292.06935152434744,
+      "transaction_costs": 1.5854142166000003,
+      "hedge_count": 1
+    },
+    {
+      "date": "2025-04-08",
+      "daily_pnl": -77.16223582635575,
+      "transaction_costs": 1.6040680994740972,
+      "hedge_count": 1
+    },
+    {
+      "date": "2025-04-09",
+      "daily_pnl": 791.0404384002031,
+      "transaction_costs": 23.42025046115817,
+      "hedge_count": 107
+    },
+    {
+      "date": "2025-04-10",
+      "daily_pnl": -389.6164689444777,
+      "transaction_costs": 6.039529886490119,
+      "hedge_count": 39
+    },
+    {
+      "date": "2025-04-11",
+      "daily_pnl": 577.1568312874078,
+      "transaction_costs": 19.717223523426355,
+      "hedge_count": 110
+    },
+    {
+      "date": "2025-04-14",
+      "daily_pnl": 86.52474330862606,
+      "transaction_costs": 12.28981012140049,
+      "hedge_count": 85
+    },
+    {
+      "date": "2025-04-15",
+      "daily_pnl": 424.4045323229511,
+      "transaction_costs": 18.369021293243062,
+      "hedge_count": 118
+    },
+    {
+      "date": "2025-04-16",
+      "daily_pnl": -105.01392622452113,
+      "transaction_costs": 7.8157572376262765,
+      "hedge_count": 74
+    },
+    {
+      "date": "2025-04-17",
+      "daily_pnl": -192.16254068334092,
+      "transaction_costs": 2.5648972658018043,
+      "hedge_count": 21
+    },
+    {
+      "date": "2025-04-21",
+      "daily_pnl": -334.5627458250892,
+      "transaction_costs": 2.611175228622095,
+      "hedge_count": 22
+    },
+    {
+      "date": "2025-04-22",
+      "daily_pnl": -344.77011239882995,
+      "transaction_costs": 2.0157668752621976,
+      "hedge_count": 15
+    },
+    {
+      "date": "2025-04-23",
+      "daily_pnl": 409.1571625253782,
+      "transaction_costs": 8.834198618602219,
+      "hedge_count": 38
+    },
+    {
+      "date": "2025-04-25",
+      "daily_pnl": -123.5970593038146,
+      "transaction_costs": 4.456482521907598,
+      "hedge_count": 42
+    },
+    {
+      "date": "2025-04-28",
+      "daily_pnl": -54.18862367422844,
+      "transaction_costs": 9.301590917572325,
+      "hedge_count": 77
+    },
+    {
+      "date": "2025-04-29",
+      "daily_pnl": 148.50666874508897,
+      "transaction_costs": 14.665512081849984,
+      "hedge_count": 107
+    },
+    {
+      "date": "2025-04-30",
+      "daily_pnl": -45.16611898186966,
+      "transaction_costs": 1.6806570166,
+      "hedge_count": 1
+    },
+    {
+      "date": "2025-05-01",
+      "daily_pnl": -10.922159096946416,
+      "transaction_costs": 9.145633129636803,
+      "hedge_count": 82
+    },
+    {
+      "date": "2025-05-02",
+      "daily_pnl": -129.6461290251027,
+      "transaction_costs": 1.851072554811025,
+      "hedge_count": 5
+    },
+    {
+      "date": "2025-05-05",
+      "daily_pnl": -88.12725060663797,
+      "transaction_costs": 6.585352635057262,
+      "hedge_count": 66
+    },
+    {
+      "date": "2025-05-06",
+      "daily_pnl": -49.597194683898124,
+      "transaction_costs": 4.981540276128041,
+      "hedge_count": 52
+    },
+    {
+      "date": "2025-05-07",
+      "daily_pnl": -34.43760575012857,
+      "transaction_costs": 5.10388589732494,
+      "hedge_count": 42
+    },
+    {
+      "date": "2025-05-08",
+      "daily_pnl": 7.389969911055232,
+      "transaction_costs": 5.459975220602513,
+      "hedge_count": 42
+    },
+    {
+      "date": "2025-05-09",
+      "daily_pnl": 77.72569492412731,
+      "transaction_costs": 11.061650329225833,
+      "hedge_count": 94
+    },
+    {
+      "date": "2025-05-12",
+      "daily_pnl": -87.63001830098801,
+      "transaction_costs": 8.33603067372012,
+      "hedge_count": 81
+    },
+    {
+      "date": "2025-05-13",
+      "daily_pnl": -123.40649290181318,
+      "transaction_costs": 1.7090325654457157,
+      "hedge_count": 6
+    },
+    {
+      "date": "2025-05-14",
+      "daily_pnl": -2.957452129237936,
+      "transaction_costs": 7.802482164671169,
+      "hedge_count": 75
+    },
+    {
+      "date": "2025-05-15",
+      "daily_pnl": -119.65733197072404,
+      "transaction_costs": 3.361923786423947,
+      "hedge_count": 34
+    },
+    {
+      "date": "2025-05-16",
+      "daily_pnl": -27.814439733949257,
+      "transaction_costs": 6.439959060317989,
+      "hedge_count": 65
+    },
+    {
+      "date": "2025-05-19",
+      "daily_pnl": -161.62465007897845,
+      "transaction_costs": 1.8770988700391482,
+      "hedge_count": 12
+    },
+    {
+      "date": "2025-05-20",
+      "daily_pnl": -14.894665070147312,
+      "transaction_costs": 7.303613499131843,
+      "hedge_count": 73
+    },
+    {
+      "date": "2025-05-21",
+      "daily_pnl": -131.24958712365333,
+      "transaction_costs": 4.505222265415995,
+      "hedge_count": 45
+    },
+    {
+      "date": "2025-05-22",
+      "daily_pnl": 122.9141504380168,
+      "transaction_costs": 12.685630929785527,
+      "hedge_count": 104
+    },
+    {
+      "date": "2025-05-23",
+      "daily_pnl": -67.30639731512929,
+      "transaction_costs": 1.9244144971192947,
+      "hedge_count": 5
+    },
+    {
+      "date": "2025-05-27",
+      "daily_pnl": -77.79312313382252,
+      "transaction_costs": 5.640582087517538,
+      "hedge_count": 59
+    },
+    {
+      "date": "2025-05-28",
+      "daily_pnl": -7.2563516141308355,
+      "transaction_costs": 7.100023812565495,
+      "hedge_count": 72
+    },
+    {
+      "date": "2025-05-30",
+      "daily_pnl": -63.6526018014265,
+      "transaction_costs": 5.762619953102478,
+      "hedge_count": 55
+    },
+    {
+      "date": "2025-06-02",
+      "daily_pnl": -21.069878375950793,
+      "transaction_costs": 4.671746339417726,
+      "hedge_count": 31
+    },
+    {
+      "date": "2025-06-03",
+      "daily_pnl": -79.89909684174927,
+      "transaction_costs": 2.289580868692697,
+      "hedge_count": 13
+    },
+    {
+      "date": "2025-06-04",
+      "daily_pnl": 27.58250145092461,
+      "transaction_costs": 8.519088182459775,
+      "hedge_count": 76
+    },
+    {
+      "date": "2025-06-05",
+      "daily_pnl": -29.813613473823352,
+      "transaction_costs": 7.1923838197062215,
+      "hedge_count": 64
+    },
+    {
+      "date": "2025-06-06",
+      "daily_pnl": -35.67615249042865,
+      "transaction_costs": 2.1404546511274636,
+      "hedge_count": 12
+    },
+    {
+      "date": "2025-06-09",
+      "daily_pnl": -75.47358055556106,
+      "transaction_costs": 5.798490663937583,
+      "hedge_count": 68
+    },
+    {
+      "date": "2025-06-10",
+      "daily_pnl": -45.98874099228124,
+      "transaction_costs": 5.468998822636313,
+      "hedge_count": 54
+    },
+    {
+      "date": "2025-06-11",
+      "daily_pnl": -26.606024756736588,
+      "transaction_costs": 3.3893390515421276,
+      "hedge_count": 27
+    },
+    {
+      "date": "2025-06-12",
+      "daily_pnl": -75.71196345990757,
+      "transaction_costs": 2.57347254255511,
+      "hedge_count": 19
+    },
+    {
+      "date": "2025-06-13",
+      "daily_pnl": -93.14633115933248,
+      "transaction_costs": 5.856995652532231,
+      "hedge_count": 51
+    },
+    {
+      "date": "2025-06-16",
+      "daily_pnl": -64.98375634721015,
+      "transaction_costs": 1.8935750862760334,
+      "hedge_count": 8
+    },
+    {
+      "date": "2025-06-17",
+      "daily_pnl": -78.99049511656631,
+      "transaction_costs": 3.2032467285173167,
+      "hedge_count": 31
+    },
+    {
+      "date": "2025-06-18",
+      "daily_pnl": 30.306602715914778,
+      "transaction_costs": 4.405769239794522,
+      "hedge_count": 47
+    },
+    {
+      "date": "2025-06-20",
+      "daily_pnl": 137.52424890539987,
+      "transaction_costs": 5.6978079825086505,
+      "hedge_count": 44
+    },
+    {
+      "date": "2025-06-23",
+      "daily_pnl": 53.90552937695611,
+      "transaction_costs": 8.931778102962493,
+      "hedge_count": 71
+    },
+    {
+      "date": "2025-06-24",
+      "daily_pnl": -31.54974216469418,
+      "transaction_costs": 6.007011757589445,
+      "hedge_count": 60
+    },
+    {
+      "date": "2025-06-25",
+      "daily_pnl": -13.858939300785096,
+      "transaction_costs": 5.509647554469589,
+      "hedge_count": 59
+    },
+    {
+      "date": "2025-06-26",
+      "daily_pnl": -31.814235192345222,
+      "transaction_costs": 3.3180598329577156,
+      "hedge_count": 37
+    },
+    {
+      "date": "2025-06-27",
+      "daily_pnl": -32.65953203467507,
+      "transaction_costs": 3.936415392929438,
+      "hedge_count": 41
+    },
+    {
+      "date": "2025-06-30",
+      "daily_pnl": -22.412306476777303,
+      "transaction_costs": 2.898209868287773,
+      "hedge_count": 27
+    },
+    {
+      "date": "2025-07-01",
+      "daily_pnl": 10.675640684710743,
+      "transaction_costs": 8.057214914159498,
+      "hedge_count": 81
+    },
+    {
+      "date": "2025-07-02",
+      "daily_pnl": -31.03277700950275,
+      "transaction_costs": 4.238569157184812,
+      "hedge_count": 43
+    },
+    {
+      "date": "2025-07-03",
+      "daily_pnl": -44.1718805767232,
+      "transaction_costs": 1.8511433824411017,
+      "hedge_count": 8
+    },
+    {
+      "date": "2025-07-07",
+      "daily_pnl": -50.98548986326932,
+      "transaction_costs": 4.477985616423503,
+      "hedge_count": 48
+    },
+    {
+      "date": "2025-07-08",
+      "daily_pnl": 2.6970080591308943,
+      "transaction_costs": 6.188215149772747,
+      "hedge_count": 67
+    },
+    {
+      "date": "2025-07-09",
+      "daily_pnl": 32.97140270429372,
+      "transaction_costs": 5.797110176000704,
+      "hedge_count": 49
+    },
+    {
+      "date": "2025-07-10",
+      "daily_pnl": -60.39726497075026,
+      "transaction_costs": 3.427270120049543,
+      "hedge_count": 33
+    },
+    {
+      "date": "2025-07-11",
+      "daily_pnl": -67.03879168079584,
+      "transaction_costs": 4.076215641793995,
+      "hedge_count": 39
+    },
+    {
+      "date": "2025-07-14",
+      "daily_pnl": -37.56768113462749,
+      "transaction_costs": 4.233735310073643,
+      "hedge_count": 41
+    },
+    {
+      "date": "2025-07-15",
+      "daily_pnl": -18.53469646895246,
+      "transaction_costs": 3.877940689350836,
+      "hedge_count": 38
+    },
+    {
+      "date": "2025-07-16",
+      "daily_pnl": 404.6653257978178,
+      "transaction_costs": 13.790681560655353,
+      "hedge_count": 79
+    },
+    {
+      "date": "2025-07-17",
+      "daily_pnl": -62.610554410923214,
+      "transaction_costs": 3.772306299886821,
+      "hedge_count": 40
+    },
+    {
+      "date": "2025-07-18",
+      "daily_pnl": -38.1554365778793,
+      "transaction_costs": 3.376586654824284,
+      "hedge_count": 34
+    },
+    {
+      "date": "2025-07-21",
+      "daily_pnl": -11.943541405024007,
+      "transaction_costs": 2.281248704543182,
+      "hedge_count": 20
+    },
+    {
+      "date": "2025-07-22",
+      "daily_pnl": -6.535333419975359,
+      "transaction_costs": 8.10497137515308,
+      "hedge_count": 79
+    },
+    {
+      "date": "2025-07-23",
+      "daily_pnl": -30.77766332202009,
+      "transaction_costs": 5.571655726331647,
+      "hedge_count": 52
+    },
+    {
+      "date": "2025-07-24",
+      "daily_pnl": -11.792414919669682,
+      "transaction_costs": 4.546223675218075,
+      "hedge_count": 50
+    },
+    {
+      "date": "2025-07-25",
+      "daily_pnl": -56.40363125662407,
+      "transaction_costs": 3.2164707708626565,
+      "hedge_count": 33
+    },
+    {
+      "date": "2025-07-28",
+      "daily_pnl": -29.58777502616431,
+      "transaction_costs": 3.1346775458110763,
+      "hedge_count": 31
+    },
+    {
+      "date": "2025-07-29",
+      "daily_pnl": -21.252996810631885,
+      "transaction_costs": 3.2943984935489867,
+      "hedge_count": 34
+    },
+    {
+      "date": "2025-07-30",
+      "daily_pnl": -44.715554696413164,
+      "transaction_costs": 2.4252282431650185,
+      "hedge_count": 26
+    },
+    {
+      "date": "2025-07-31",
+      "daily_pnl": -58.290663441686775,
+      "transaction_costs": 3.193281148811338,
+      "hedge_count": 25
+    },
+    {
+      "date": "2025-08-01",
+      "daily_pnl": -33.818584172935516,
+      "transaction_costs": 3.2311973041086954,
+      "hedge_count": 27
+    },
+    {
+      "date": "2025-08-04",
+      "daily_pnl": -67.87221533955744,
+      "transaction_costs": 2.3085389580880022,
+      "hedge_count": 21
+    },
+    {
+      "date": "2025-08-05",
+      "daily_pnl": -37.708161563445174,
+      "transaction_costs": 4.260435413260088,
+      "hedge_count": 40
+    },
+    {
+      "date": "2025-08-06",
+      "daily_pnl": -5.768482091916667,
+      "transaction_costs": 7.9546063003302345,
+      "hedge_count": 73
+    },
+    {
+      "date": "2025-08-07",
+      "daily_pnl": -21.964601531959488,
+      "transaction_costs": 3.6040483232651255,
+      "hedge_count": 26
+    },
+    {
+      "date": "2025-08-08",
+      "daily_pnl": -29.52018035065703,
+      "transaction_costs": 3.6842839947667425,
+      "hedge_count": 37
+    },
+    {
+      "date": "2025-08-11",
+      "daily_pnl": -30.763181435555452,
+      "transaction_costs": 4.886608266736732,
+      "hedge_count": 54
+    },
+    {
+      "date": "2025-08-12",
+      "daily_pnl": -20.20807733154652,
+      "transaction_costs": 3.8986751926743777,
+      "hedge_count": 26
+    },
+    {
+      "date": "2025-08-13",
+      "daily_pnl": 12.096744092632434,
+      "transaction_costs": 6.905293969164046,
+      "hedge_count": 69
+    },
+    {
+      "date": "2025-08-14",
+      "daily_pnl": -14.63053440720978,
+      "transaction_costs": 5.920018853678068,
+      "hedge_count": 57
+    },
+    {
+      "date": "2025-08-15",
+      "daily_pnl": -43.78017710905988,
+      "transaction_costs": 3.493304854346592,
+      "hedge_count": 31
+    },
+    {
+      "date": "2025-08-18",
+      "daily_pnl": -39.3712155555404,
+      "transaction_costs": 5.310103195138292,
+      "hedge_count": 56
+    },
+    {
+      "date": "2025-08-19",
+      "daily_pnl": 1.3978014183812775,
+      "transaction_costs": 5.339205570832454,
+      "hedge_count": 55
+    },
+    {
+      "date": "2025-08-20",
+      "daily_pnl": -20.376310480023676,
+      "transaction_costs": 2.552204845493389,
+      "hedge_count": 20
+    },
+    {
+      "date": "2025-08-21",
+      "daily_pnl": 55.80613586844265,
+      "transaction_costs": 11.74819816044723,
+      "hedge_count": 90
+    },
+    {
+      "date": "2025-08-22",
+      "daily_pnl": -146.54632299074,
+      "transaction_costs": 2.7483582185461026,
+      "hedge_count": 16
+    },
+    {
+      "date": "2025-08-25",
+      "daily_pnl": -59.54444385810348,
+      "transaction_costs": 5.138132371350451,
+      "hedge_count": 55
+    },
+    {
+      "date": "2025-08-26",
+      "daily_pnl": -49.74709774360963,
+      "transaction_costs": 5.652749841813071,
+      "hedge_count": 58
+    },
+    {
+      "date": "2025-08-27",
+      "daily_pnl": -4.8306945280128275,
+      "transaction_costs": 4.7670258407984285,
+      "hedge_count": 43
+    },
+    {
+      "date": "2025-08-28",
+      "daily_pnl": 9.312107536768963,
+      "transaction_costs": 8.837600300017916,
+      "hedge_count": 87
+    },
+    {
+      "date": "2025-08-29",
+      "daily_pnl": -23.24864084769797,
+      "transaction_costs": 3.223527160372578,
+      "hedge_count": 30
+    },
+    {
+      "date": "2025-09-02",
+      "daily_pnl": -53.58186312126054,
+      "transaction_costs": 3.0058796338328886,
+      "hedge_count": 20
+    },
+    {
+      "date": "2025-09-03",
+      "daily_pnl": 4.13805296850478,
+      "transaction_costs": 9.112163150048529,
+      "hedge_count": 77
+    },
+    {
+      "date": "2025-09-04",
+      "daily_pnl": -4.461339570123528,
+      "transaction_costs": 6.168216421446424,
+      "hedge_count": 63
+    },
+    {
+      "date": "2025-09-05",
+      "daily_pnl": -12.941435792650736,
+      "transaction_costs": 4.272059031698349,
+      "hedge_count": 35
+    },
+    {
+      "date": "2025-09-08",
+      "daily_pnl": -16.607765818029293,
+      "transaction_costs": 4.76798708149156,
+      "hedge_count": 52
+    },
+    {
+      "date": "2025-09-09",
+      "daily_pnl": -55.11357674088504,
+      "transaction_costs": 4.177915478494576,
+      "hedge_count": 43
+    },
+    {
+      "date": "2025-09-10",
+      "daily_pnl": -36.9672667426712,
+      "transaction_costs": 2.708650298974348,
+      "hedge_count": 20
+    },
+    {
+      "date": "2025-09-11",
+      "daily_pnl": -45.81662591921486,
+      "transaction_costs": 2.474567582600467,
+      "hedge_count": 19
+    },
+    {
+      "date": "2025-09-12",
+      "daily_pnl": -54.96529544783698,
+      "transaction_costs": 4.420615352438386,
+      "hedge_count": 45
+    },
+    {
+      "date": "2025-09-15",
+      "daily_pnl": -25.821896109555382,
+      "transaction_costs": 2.250188773000613,
+      "hedge_count": 14
+    },
+    {
+      "date": "2025-09-16",
+      "daily_pnl": -20.108803813251143,
+      "transaction_costs": 2.4166546926388492,
+      "hedge_count": 21
+    },
+    {
+      "date": "2025-09-17",
+      "daily_pnl": 19.57370049407473,
+      "transaction_costs": 3.404918002948387,
+      "hedge_count": 35
+    },
+    {
+      "date": "2025-09-18",
+      "daily_pnl": -70.32484541539452,
+      "transaction_costs": 5.14891155774699,
+      "hedge_count": 50
+    },
+    {
+      "date": "2025-09-19",
+      "daily_pnl": -116.16895483078406,
+      "transaction_costs": 6.448475752854405,
+      "hedge_count": 64
+    },
+    {
+      "date": "2025-09-22",
+      "daily_pnl": -19.690609506316832,
+      "transaction_costs": 2.3735499352693634,
+      "hedge_count": 20
+    },
+    {
+      "date": "2025-09-23",
+      "daily_pnl": -48.11771728521853,
+      "transaction_costs": 4.059911098331158,
+      "hedge_count": 45
+    },
+    {
+      "date": "2025-09-24",
+      "daily_pnl": -71.24064309276582,
+      "transaction_costs": 4.316278838337831,
+      "hedge_count": 47
+    },
+    {
+      "date": "2025-09-25",
+      "daily_pnl": 13.049952520799707,
+      "transaction_costs": 3.625378428434061,
+      "hedge_count": 30
+    },
+    {
+      "date": "2025-09-26",
+      "daily_pnl": 92.02102280248073,
+      "transaction_costs": 7.790072931852309,
+      "hedge_count": 71
+    },
+    {
+      "date": "2025-09-29",
+      "daily_pnl": -51.36702869232249,
+      "transaction_costs": 4.780980228214939,
+      "hedge_count": 49
+    },
+    {
+      "date": "2025-09-30",
+      "daily_pnl": 41.376753977532644,
+      "transaction_costs": 9.368691308861505,
+      "hedge_count": 88
+    },
+    {
+      "date": "2025-10-01",
+      "daily_pnl": -66.18359858622716,
+      "transaction_costs": 3.4117601458379063,
+      "hedge_count": 28
+    },
+    {
+      "date": "2025-10-02",
+      "daily_pnl": 24.19859720992099,
+      "transaction_costs": 5.984475650814306,
+      "hedge_count": 57
+    },
+    {
+      "date": "2025-10-03",
+      "daily_pnl": -69.04114097697311,
+      "transaction_costs": 4.907773717072122,
+      "hedge_count": 51
+    },
+    {
+      "date": "2025-10-06",
+      "daily_pnl": -51.83062306659849,
+      "transaction_costs": 5.227040403340475,
+      "hedge_count": 58
+    },
+    {
+      "date": "2025-10-07",
+      "daily_pnl": -16.662324919278035,
+      "transaction_costs": 5.051390002036534,
+      "hedge_count": 45
+    },
+    {
+      "date": "2025-10-08",
+      "daily_pnl": -46.638266746216686,
+      "transaction_costs": 3.3294856461106326,
+      "hedge_count": 34
+    },
+    {
+      "date": "2025-10-09",
+      "daily_pnl": -8.896989453365677,
+      "transaction_costs": 3.940886097003635,
+      "hedge_count": 40
+    },
+    {
+      "date": "2025-10-10",
+      "daily_pnl": 78.12731747127691,
+      "transaction_costs": 5.437195755298198,
+      "hedge_count": 35
+    },
+    {
+      "date": "2025-10-13",
+      "daily_pnl": 85.41418369945313,
+      "transaction_costs": 12.391574856406125,
+      "hedge_count": 91
+    },
+    {
+      "date": "2025-10-14",
+      "daily_pnl": -133.64787314376736,
+      "transaction_costs": 6.905501996023841,
+      "hedge_count": 66
+    },
+    {
+      "date": "2025-10-15",
+      "daily_pnl": 167.50760488893138,
+      "transaction_costs": 6.8176761885144455,
+      "hedge_count": 48
+    },
+    {
+      "date": "2025-10-16",
+      "daily_pnl": 73.61926935482188,
+      "transaction_costs": 12.155981137602861,
+      "hedge_count": 88
+    },
+    {
+      "date": "2025-10-17",
+      "daily_pnl": -316.438223279627,
+      "transaction_costs": 2.0599808654791274,
+      "hedge_count": 4
+    },
+    {
+      "date": "2025-10-20",
+      "daily_pnl": -98.19968165687169,
+      "transaction_costs": 2.2973131326583283,
+      "hedge_count": 16
+    },
+    {
+      "date": "2025-10-21",
+      "daily_pnl": -45.067883362942666,
+      "transaction_costs": 6.105203503089607,
+      "hedge_count": 57
+    },
+    {
+      "date": "2025-10-22",
+      "daily_pnl": -70.11033432352997,
+      "transaction_costs": 4.062355793485563,
+      "hedge_count": 40
+    },
+    {
+      "date": "2025-10-23",
+      "daily_pnl": -66.26322069259186,
+      "transaction_costs": 5.387200476557333,
+      "hedge_count": 52
+    },
+    {
+      "date": "2025-10-24",
+      "daily_pnl": -65.05459447557223,
+      "transaction_costs": 2.780607158737213,
+      "hedge_count": 20
+    },
+    {
+      "date": "2025-10-27",
+      "daily_pnl": -58.60767374315765,
+      "transaction_costs": 4.428420104024023,
+      "hedge_count": 45
+    },
+    {
+      "date": "2025-10-28",
+      "daily_pnl": -55.756307275994914,
+      "transaction_costs": 5.940030986424943,
+      "hedge_count": 48
+    },
+    {
+      "date": "2025-10-29",
+      "daily_pnl": 80.10884006604465,
+      "transaction_costs": 6.4478953827404535,
+      "hedge_count": 56
+    },
+    {
+      "date": "2025-10-30",
+      "daily_pnl": 17.110102310485672,
+      "transaction_costs": 8.541456707216746,
+      "hedge_count": 67
+    },
+    {
+      "date": "2025-10-31",
+      "daily_pnl": -104.00925782269042,
+      "transaction_costs": 6.36241094262276,
+      "hedge_count": 67
+    },
+    {
+      "date": "2026-03-09",
+      "daily_pnl": -81.37914684146381,
+      "transaction_costs": 9.203277866075894,
+      "hedge_count": 63
+    },
+    {
+      "date": "2026-03-10",
+      "daily_pnl": 40.80836751754214,
+      "transaction_costs": 9.439280257755556,
+      "hedge_count": 65
+    },
+    {
+      "date": "2026-03-11",
+      "daily_pnl": 83.00704646515078,
+      "transaction_costs": 11.796109977008914,
+      "hedge_count": 86
+    },
+    {
+      "date": "2026-03-12",
+      "daily_pnl": -79.38247183922795,
+      "transaction_costs": 4.138841942748833,
+      "hedge_count": 30
+    },
+    {
+      "date": "2026-03-13",
+      "daily_pnl": 68.52093927301758,
+      "transaction_costs": 9.175110982572383,
+      "hedge_count": 68
+    },
+    {
+      "date": "2026-03-16",
+      "daily_pnl": -161.49301080797886,
+      "transaction_costs": 1.973504109210149,
+      "hedge_count": 3
+    },
+    {
+      "date": "2026-03-17",
+      "daily_pnl": -40.65057706556399,
+      "transaction_costs": 2.118437243968502,
+      "hedge_count": 5
+    },
+    {
+      "date": "2026-03-18",
+      "daily_pnl": -90.42250756076828,
+      "transaction_costs": 2.0632896128969076,
+      "hedge_count": 3
+    },
+    {
+      "date": "2026-03-19",
+      "daily_pnl": 28.616920317748736,
+      "transaction_costs": 8.860577612761382,
+      "hedge_count": 63
+    },
+    {
+      "date": "2026-03-20",
+      "daily_pnl": -161.29291431066667,
+      "transaction_costs": 2.8790445280346284,
+      "hedge_count": 14
+    },
+    {
+      "date": "2026-03-24",
+      "daily_pnl": 290.15557123639155,
+      "transaction_costs": 12.87322044978303,
+      "hedge_count": 82
+    },
+    {
+      "date": "2026-03-25",
+      "daily_pnl": -41.032060926780105,
+      "transaction_costs": 9.043086651134306,
+      "hedge_count": 79
+    },
+    {
+      "date": "2026-03-26",
+      "daily_pnl": 17.173270816005243,
+      "transaction_costs": 8.835413185986756,
+      "hedge_count": 72
+    },
+    {
+      "date": "2026-03-27",
+      "daily_pnl": -143.5214181420888,
+      "transaction_costs": 1.9509163217214236,
+      "hedge_count": 4
+    },
+    {
+      "date": "2026-03-30",
+      "daily_pnl": 151.16398562382528,
+      "transaction_costs": 13.077971940653509,
+      "hedge_count": 100
+    },
+    {
+      "date": "2026-03-31",
+      "daily_pnl": -70.54442275481415,
+      "transaction_costs": 3.7435959813542588,
+      "hedge_count": 23
+    },
+    {
+      "date": "2026-04-01",
+      "daily_pnl": -95.99303193424566,
+      "transaction_costs": 6.496161437696306,
+      "hedge_count": 53
+    },
+    {
+      "date": "2026-04-02",
+      "daily_pnl": -110.68638462775561,
+      "transaction_costs": 5.061095909758747,
+      "hedge_count": 38
+    }
+  ],
+  "duration_seconds": 419.813147
+}

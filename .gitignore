@@ -144,6 +144,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# API credentials (DO NOT COMMIT!)
+**/config.env
+**/*credentials*
+**/secrets.py
+
 # Spyder project settings
 .spyderproject
 .spyproject
