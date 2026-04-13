@@ -18,7 +18,7 @@ class ExecutionModel:
     - Transaction costs (commissions, fees, SEC charges)
     """
 
-    # Commission rates
+    # Commission rates (can be zeroed via config['zero_costs'])
     OPTION_COMMISSION = 0.01  # $ per contract (institutional rate)
     STOCK_COMMISSION = 0.00    # $ per share (zero-commission broker)
 
@@ -74,8 +74,9 @@ class ExecutionModel:
             spread_pct = base_spread_pct * time_mult * liquidity_mult
             spread_dollars = mid_price * spread_pct
 
-            # Minimum spread of $0.05
-            spread_dollars = max(spread_dollars, 0.05)
+            # Minimum spread of $0.05 (skip if zero-cost mode)
+            if base_spread_pct > 0:
+                spread_dollars = max(spread_dollars, 0.05)
 
             bid = mid_price - spread_dollars / 2
             ask = mid_price + spread_dollars / 2
@@ -157,6 +158,10 @@ class ExecutionModel:
         side = trade['side']
         quantity = trade['quantity']
         price = trade['price']
+
+        # Zero-cost mode: skip all fees
+        if self.config.get('zero_costs', False):
+            return 0.0
 
         if asset_type == 'option':
             # Option commission
