@@ -1,0 +1,2566 @@
+{
+  "Straddle_3DTE_dH=1_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=1_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.01,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2143.5004555550404,
+      "avg_pnl": 178.62503796292003,
+      "median_pnl": -19.75529524583908,
+      "std_pnl": 413.8897527820024,
+      "best_trade": 1219.38906985207,
+      "worst_trade": -153.76209708974056,
+      "win_rate": 0.5,
+      "sharpe": 6.851062514151354,
+      "avg_transaction_costs": 6.05987238724186,
+      "avg_hedges": 205.91666666666666,
+      "total_transaction_costs": 72.71846864690232,
+      "profit_factor": 4.013441954959017
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 16.322662272352318,
+        "transaction_costs": 4.413776421965049,
+        "hedge_count": 193,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -98.60398264328978,
+        "transaction_costs": 3.663487104944274,
+        "hedge_count": 138,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -149.23262446687295,
+        "transaction_costs": 3.288649823173759,
+        "hedge_count": 163,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -115.58965253511269,
+        "transaction_costs": 4.057954491381331,
+        "hedge_count": 187,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -153.76209708974056,
+        "transaction_costs": 2.7719492942452595,
+        "hedge_count": 111,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 45.943282435517176,
+        "transaction_costs": 5.565086810963347,
+        "hedge_count": 227,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -138.2913965562475,
+        "transaction_costs": 3.5323157839698913,
+        "hedge_count": 170,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -55.833252764030476,
+        "transaction_costs": 3.0120085980010853,
+        "hedge_count": 130,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 632.9612423656581,
+        "transaction_costs": 11.37358496791935,
+        "hedge_count": 326,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1219.38906985207,
+        "transaction_costs": 4.022268026342081,
+        "hedge_count": 164,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 557.8157643713639,
+        "transaction_costs": 16.19699456752195,
+        "hedge_count": 340,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 382.3814403133729,
+        "transaction_costs": 10.820392756474943,
+        "hedge_count": 322,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=2_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=2_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.02,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2155.505811858442,
+      "avg_pnl": 179.62548432153685,
+      "median_pnl": -17.74122468657879,
+      "std_pnl": 410.8150407023982,
+      "best_trade": 1211.0472485349965,
+      "worst_trade": -150.1862695529926,
+      "win_rate": 0.5,
+      "sharpe": 6.9409974839055675,
+      "avg_transaction_costs": 5.325185962468125,
+      "avg_hedges": 109.75,
+      "total_transaction_costs": 63.902231549617504,
+      "profit_factor": 4.096408576200088
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 17.544011339145072,
+        "transaction_costs": 3.8885269996687932,
+        "hedge_count": 106,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -104.9629764913916,
+        "transaction_costs": 3.22348288195474,
+        "hedge_count": 68,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -138.24096910265507,
+        "transaction_costs": 2.749849549313358,
+        "hedge_count": 66,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -116.44276854691998,
+        "transaction_costs": 3.221833535282106,
+        "hedge_count": 86,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -150.1862695529926,
+        "transaction_costs": 2.330381497692794,
+        "hedge_count": 41,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 50.85941492667189,
+        "transaction_costs": 4.7991530840452175,
+        "hedge_count": 127,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -133.27149529798044,
+        "transaction_costs": 2.7749163012595264,
+        "hedge_count": 69,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -53.02646071230265,
+        "transaction_costs": 2.5290183722844137,
+        "hedge_count": 54,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 634.5119834594589,
+        "transaction_costs": 10.00717074283465,
+        "hedge_count": 181,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1211.0472485349965,
+        "transaction_costs": 3.3022906268110397,
+        "hedge_count": 83,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 552.036518287001,
+        "transaction_costs": 15.099243827982592,
+        "hedge_count": 220,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 385.63757501541113,
+        "transaction_costs": 9.976364130488273,
+        "hedge_count": 216,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=3_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=3_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.03,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2190.489351891032,
+      "avg_pnl": 182.54077932425267,
+      "median_pnl": -22.569884370608634,
+      "std_pnl": 413.8217670809994,
+      "best_trade": 1226.1661906961453,
+      "worst_trade": -146.74010060993896,
+      "win_rate": 0.5,
+      "sharpe": 7.0023987809035955,
+      "avg_transaction_costs": 4.872880320472488,
+      "avg_hedges": 70.83333333333333,
+      "total_transaction_costs": 58.474563845669856,
+      "profit_factor": 4.2260165726056025
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 6.395520411570033,
+        "transaction_costs": 3.167223420650241,
+        "hedge_count": 55,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -107.4693110513399,
+        "transaction_costs": 2.8137203828321384,
+        "hedge_count": 33,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -138.0239231926971,
+        "transaction_costs": 2.33430580941749,
+        "hedge_count": 31,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -114.00859064557153,
+        "transaction_costs": 2.7263015384782445,
+        "hedge_count": 45,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -146.74010060993896,
+        "transaction_costs": 2.1572118141406404,
+        "hedge_count": 24,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 54.5539605737431,
+        "transaction_costs": 4.352820728756594,
+        "hedge_count": 87,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -121.23025557953952,
+        "transaction_costs": 2.6647711882770677,
+        "hedge_count": 48,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -51.5352891527873,
+        "transaction_costs": 2.23234573014186,
+        "hedge_count": 27,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 630.5927483236956,
+        "transaction_costs": 9.523509878259969,
+        "hedge_count": 140,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1226.1661906961453,
+        "transaction_costs": 3.002248587247114,
+        "hedge_count": 50,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 563.2246064672509,
+        "transaction_costs": 14.351860008172515,
+        "hedge_count": 160,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 388.56379565050156,
+        "transaction_costs": 9.148244759295984,
+        "hedge_count": 150,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=5_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2235.899016488009,
+      "avg_pnl": 186.3249180406674,
+      "median_pnl": -12.741359533218201,
+      "std_pnl": 419.9959892111295,
+      "best_trade": 1244.8612035592232,
+      "worst_trade": -147.2579603616905,
+      "win_rate": 0.4166666666666667,
+      "sharpe": 7.042487197785387,
+      "avg_transaction_costs": 4.303917990187,
+      "avg_hedges": 40.0,
+      "total_transaction_costs": 51.647015882244006,
+      "profit_factor": 4.357628890049169
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -4.9462236437466345,
+        "transaction_costs": 2.627069680404625,
+        "hedge_count": 25,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -86.64630643936835,
+        "transaction_costs": 2.723206518926774,
+        "hedge_count": 21,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -144.54256832844112,
+        "transaction_costs": 1.9647536928275275,
+        "hedge_count": 12,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -121.35096262372826,
+        "transaction_costs": 2.1997082904753573,
+        "hedge_count": 18,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -147.2579603616905,
+        "transaction_costs": 1.904771436145664,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 54.01994418365939,
+        "transaction_costs": 3.4270419319765986,
+        "hedge_count": 42,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -140.6355476728786,
+        "transaction_costs": 1.9697737591922142,
+        "hedge_count": 17,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -20.536495422689768,
+        "transaction_costs": 2.169348442451973,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 661.5626887222315,
+        "transaction_costs": 8.748448516276067,
+        "hedge_count": 87,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1244.8612035592232,
+        "transaction_costs": 2.657934985456798,
+        "hedge_count": 27,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 557.2157652409223,
+        "transaction_costs": 13.571889912468963,
+        "hedge_count": 117,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 384.1554792745155,
+        "transaction_costs": 7.683068715641448,
+        "hedge_count": 88,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=7_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=7_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.07,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2081.668325693914,
+      "avg_pnl": 173.47236047449283,
+      "median_pnl": -19.05951033310339,
+      "std_pnl": 400.79632638169846,
+      "best_trade": 1135.829786041424,
+      "worst_trade": -155.11098396935267,
+      "win_rate": 0.5,
+      "sharpe": 6.870792394266062,
+      "avg_transaction_costs": 3.983766972937618,
+      "avg_hedges": 28.083333333333332,
+      "total_transaction_costs": 47.80520367525142,
+      "profit_factor": 3.8280824334368697
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 18.810851848931634,
+        "transaction_costs": 2.41719507204732,
+        "hedge_count": 15,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -133.93708063921076,
+        "transaction_costs": 2.509484746421987,
+        "hedge_count": 14,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -150.26150783350022,
+        "transaction_costs": 1.8721959231937284,
+        "hedge_count": 8,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -112.17873214043357,
+        "transaction_costs": 2.0613468310641614,
+        "hedge_count": 11,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -155.11098396935267,
+        "transaction_costs": 1.6685019886889538,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 47.527056293562055,
+        "transaction_costs": 2.819874251566467,
+        "hedge_count": 26,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -127.6524200964268,
+        "transaction_costs": 1.829047217578598,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -56.92987251513841,
+        "transaction_costs": 1.99702756798124,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 632.690533619425,
+        "transaction_costs": 8.174200351629853,
+        "hedge_count": 66,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1135.829786041424,
+        "transaction_costs": 2.2523554744756735,
+        "hedge_count": 14,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 580.9402048967168,
+        "transaction_costs": 12.966624374581894,
+        "hedge_count": 92,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 401.940490187917,
+        "transaction_costs": 7.237349876021536,
+        "hedge_count": 67,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=10_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=10_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.1,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2023.2765082925325,
+      "avg_pnl": 168.60637569104438,
+      "median_pnl": -24.366708659414144,
+      "std_pnl": 406.6259983649646,
+      "best_trade": 1165.6651316285497,
+      "worst_trade": -161.2247411704957,
+      "win_rate": 0.4166666666666667,
+      "sharpe": 6.5823219567684,
+      "avg_transaction_costs": 3.5266993581430395,
+      "avg_hedges": 17.666666666666668,
+      "total_transaction_costs": 42.32039229771648,
+      "profit_factor": 3.666401802618722
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -5.112986132306105,
+        "transaction_costs": 2.0872333049491427,
+        "hedge_count": 8,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -137.84224379970692,
+        "transaction_costs": 2.221053945366513,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -161.2247411704957,
+        "transaction_costs": 1.6414304669472706,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -114.54000869549054,
+        "transaction_costs": 1.8440816898994468,
+        "hedge_count": 6,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -157.92160734793288,
+        "transaction_costs": 1.6684238511868068,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 43.16568607772206,
+        "transaction_costs": 2.5811772741471333,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -138.54203974515258,
+        "transaction_costs": 1.6874646806,
+        "hedge_count": 6,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -43.62043118652218,
+        "transaction_costs": 1.9070812636172894,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 650.6736185212721,
+        "transaction_costs": 7.336197632374753,
+        "hedge_count": 45,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1165.6651316285497,
+        "transaction_costs": 2.2970065094260006,
+        "hedge_count": 11,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 537.1511914079019,
+        "transaction_costs": 11.02512002352261,
+        "hedge_count": 55,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 385.42493873469357,
+        "transaction_costs": 6.024121655679508,
+        "hedge_count": 44,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=15_exit=eod": {
+    "config_name": "Straddle_3DTE_dH=15_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.15,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2146.0440971049393,
+      "avg_pnl": 178.83700809207826,
+      "median_pnl": -69.28024858068966,
+      "std_pnl": 446.47000167452387,
+      "best_trade": 1330.3973235395824,
+      "worst_trade": -167.8303978385229,
+      "win_rate": 0.4166666666666667,
+      "sharpe": 6.358656754342255,
+      "avg_transaction_costs": 3.123696081741048,
+      "avg_hedges": 11.083333333333334,
+      "total_transaction_costs": 37.484352980892574,
+      "profit_factor": 3.5070750472573318
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -26.749246292478347,
+        "transaction_costs": 1.8615035964505064,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -167.8303978385229,
+        "transaction_costs": 2.129403609514979,
+        "hedge_count": 5,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -141.10032533805497,
+        "transaction_costs": 1.6419899412607983,
+        "hedge_count": 2,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -139.62802047809964,
+        "transaction_costs": 1.5487463002594193,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -134.47226564124867,
+        "transaction_costs": 1.6690757610093458,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 69.8991024775969,
+        "transaction_costs": 2.1176108580557815,
+        "hedge_count": 9,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -134.4036499113281,
+        "transaction_costs": 1.6874646806,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -111.81125086890097,
+        "transaction_costs": 1.5595181908673403,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 634.203139738951,
+        "transaction_costs": 6.140393458560881,
+        "hedge_count": 29,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1330.3973235395824,
+        "transaction_costs": 1.8628759861868152,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 566.7091213437743,
+        "transaction_costs": 10.213731438530845,
+        "hedge_count": 40,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 400.83056637366826,
+        "transaction_costs": 5.0520391595958625,
+        "hedge_count": 27,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Strangle(w=2)_3DTE_dH=5_exit=eod": {
+    "config_name": "Strangle(w=2)_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "strangle",
+      "strangle_width": 2,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2312.282018009202,
+      "avg_pnl": 192.6901681674335,
+      "median_pnl": 63.07249903126649,
+      "std_pnl": 399.92420930106164,
+      "best_trade": 1322.7617204561975,
+      "worst_trade": -145.1584638147251,
+      "win_rate": 0.5,
+      "sharpe": 7.648603208331309,
+      "avg_transaction_costs": 3.3998181941247316,
+      "avg_hedges": 38.083333333333336,
+      "total_transaction_costs": 40.79781832949678,
+      "profit_factor": 6.095399695328566
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -11.944266728933144,
+        "transaction_costs": 2.311780404465084,
+        "hedge_count": 19,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -69.81057581490313,
+        "transaction_costs": 2.5405090654479867,
+        "hedge_count": 17,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -145.1584638147251,
+        "transaction_costs": 1.9649049249872623,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -91.16051307985617,
+        "transaction_costs": 2.1705159584482514,
+        "hedge_count": 21,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -106.1931574590053,
+        "transaction_costs": 1.9047783861763425,
+        "hedge_count": 11,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 138.08926479146612,
+        "transaction_costs": 4.882736098639631,
+        "hedge_count": 63,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": 177.34012260798045,
+        "transaction_costs": 2.191607659513198,
+        "hedge_count": 22,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -29.530989163824415,
+        "transaction_costs": 2.105795980474398,
+        "hedge_count": 15,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 604.4814005117505,
+        "transaction_costs": 5.8198933021813035,
+        "hedge_count": 85,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1322.7617204561975,
+        "transaction_costs": 2.7928226013436666,
+        "hedge_count": 28,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 350.2696249841222,
+        "transaction_costs": 7.656829120216759,
+        "hedge_count": 92,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 173.137850718933,
+        "transaction_costs": 4.455644827602899,
+        "hedge_count": 71,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Strangle(w=5)_3DTE_dH=5_exit=eod": {
+    "config_name": "Strangle(w=5)_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "strangle",
+      "strangle_width": 5,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 2290.868991152076,
+      "avg_pnl": 190.905749262673,
+      "median_pnl": 64.00274194096468,
+      "std_pnl": 373.3201518983467,
+      "best_trade": 1277.498119754593,
+      "worst_trade": -90.71090532427479,
+      "win_rate": 0.5833333333333334,
+      "sharpe": 8.11779059608363,
+      "avg_transaction_costs": 2.535735394917888,
+      "avg_hedges": 32.583333333333336,
+      "total_transaction_costs": 30.42882473901466,
+      "profit_factor": 9.633256955815954
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 33.12639970066812,
+        "transaction_costs": 2.524172283427887,
+        "hedge_count": 26,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -66.66744536581973,
+        "transaction_costs": 2.3579165546116645,
+        "hedge_count": 19,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -8.444167027322692,
+        "transaction_costs": 2.540828384836489,
+        "hedge_count": 30,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -20.95913959268819,
+        "transaction_costs": 2.7046546211551354,
+        "hedge_count": 47,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -78.57231082457292,
+        "transaction_costs": 2.095523175258385,
+        "hedge_count": 22,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 94.87908418126123,
+        "transaction_costs": 1.1891832232453907,
+        "hedge_count": 22,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -90.71090532427479,
+        "transaction_costs": 2.914212328654676,
+        "hedge_count": 34,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": 556.6412070385995,
+        "transaction_costs": 2.136699969756759,
+        "hedge_count": 15,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 313.10481950298174,
+        "transaction_costs": 3.8824970570977864,
+        "hedge_count": 57,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1277.498119754593,
+        "transaction_costs": 4.40295223159998,
+        "hedge_count": 57,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 162.1680470303295,
+        "transaction_costs": 2.047704098640041,
+        "hedge_count": 34,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 118.8052820783214,
+        "transaction_costs": 1.6324808107304685,
+        "hedge_count": 28,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Strangle(w=10)_3DTE_dH=5_exit=eod": {
+    "config_name": "Strangle(w=10)_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "strangle",
+      "strangle_width": 10,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 1464.4052592277346,
+      "avg_pnl": 122.03377160231122,
+      "median_pnl": 26.90871605057525,
+      "std_pnl": 328.1115468734923,
+      "best_trade": 1195.4102874225919,
+      "worst_trade": -52.10154811519078,
+      "win_rate": 0.5833333333333334,
+      "sharpe": 5.90416913310507,
+      "avg_transaction_costs": 1.2936605885654022,
+      "avg_hedges": 18.833333333333332,
+      "total_transaction_costs": 15.523927062784827,
+      "profit_factor": 11.808464398487834
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 2.3272422434436066,
+        "transaction_costs": 0.6927203918959404,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -2.328122037164576,
+        "transaction_costs": 0.9029051496086975,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -16.582090729473748,
+        "transaction_costs": 0.5360567470539241,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -25.16553228367684,
+        "transaction_costs": 0.29047340595095916,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -52.10154811519078,
+        "transaction_costs": 0.4978286518460311,
+        "hedge_count": 5,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 51.490189857706895,
+        "transaction_costs": 0.6457362448269514,
+        "hedge_count": 11,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -39.30959981372371,
+        "transaction_costs": 1.3606670130964027,
+        "hedge_count": 23,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": 129.16011206428084,
+        "transaction_costs": 3.7724847220292306,
+        "hedge_count": 46,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 95.74571338905116,
+        "transaction_costs": 1.6966486727767918,
+        "hedge_count": 25,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 1195.4102874225919,
+        "transaction_costs": 3.471080635062183,
+        "hedge_count": 52,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 63.01453259224364,
+        "transaction_costs": 0.8208457568214681,
+        "hedge_count": 12,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 62.74407463764655,
+        "transaction_costs": 0.8364796718162466,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_+Wings(5)_3DTE_dH=5_exit=eod": {
+    "config_name": "Straddle_+Wings(5)_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": true,
+      "wing_width": 5,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": -1065.0002439178813,
+      "avg_pnl": -88.75002032649012,
+      "median_pnl": -63.146115349591355,
+      "std_pnl": 333.64837632222634,
+      "best_trade": 379.79071211825067,
+      "worst_trade": -948.114631216321,
+      "win_rate": 0.25,
+      "sharpe": -4.222597787960729,
+      "avg_transaction_costs": 3.1552909467061734,
+      "avg_hedges": 29.75,
+      "total_transaction_costs": 37.86349136047408,
+      "profit_factor": 0.46260937119872075
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -52.929914332485964,
+        "transaction_costs": 0.6800914008940364,
+        "hedge_count": 8,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -77.58275150088912,
+        "transaction_costs": 0.7466407028781563,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -400.4575468173,
+        "transaction_costs": 1.6701619456519632,
+        "hedge_count": 21,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -116.4349573994914,
+        "transaction_costs": 3.0569725402017487,
+        "hedge_count": 31,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -223.61487017204672,
+        "transaction_costs": 1.2049354033529023,
+        "hedge_count": 15,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -67.84316871607734,
+        "transaction_costs": 2.3660151325270458,
+        "hedge_count": 20,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -58.449061983105366,
+        "transaction_costs": 1.3550671030933388,
+        "hedge_count": 18,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -948.114631216321,
+        "transaction_costs": 0.3173934547915,
+        "hedge_count": 1,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 290.10187736815715,
+        "transaction_costs": 7.36249986926043,
+        "hedge_count": 68,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -36.37215954950511,
+        "transaction_costs": 1.9425089928758668,
+        "hedge_count": 31,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 379.79071211825067,
+        "transaction_costs": 11.15830842359018,
+        "hedge_count": 78,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 246.90622828293272,
+        "transaction_costs": 6.002896391356915,
+        "hedge_count": 59,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_+Wings(10)_3DTE_dH=5_exit=eod": {
+    "config_name": "Straddle_+Wings(10)_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": true,
+      "wing_width": 10,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": 539.5314693285436,
+      "avg_pnl": 44.960955777378636,
+      "median_pnl": -37.12841231174025,
+      "std_pnl": 234.48050303053446,
+      "best_trade": 517.8999860399053,
+      "worst_trade": -195.0969271843096,
+      "win_rate": 0.3333333333333333,
+      "sharpe": 3.043890800913866,
+      "avg_transaction_costs": 3.9400645359563122,
+      "avg_hedges": 30.916666666666668,
+      "total_transaction_costs": 47.28077443147575,
+      "profit_factor": 1.7068370578746788
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -19.582277066700044,
+        "transaction_costs": 1.9522197049342307,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -102.44830106374866,
+        "transaction_costs": 2.437490902390103,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -136.73456707131845,
+        "transaction_costs": 1.7313251547738544,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -47.71682807553589,
+        "transaction_costs": 2.012690664805454,
+        "hedge_count": 8,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -123.77998346811364,
+        "transaction_costs": 1.7577496346715633,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -26.53999654794461,
+        "transaction_costs": 2.8937497905588083,
+        "hedge_count": 26,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -111.40500026509835,
+        "transaction_costs": 2.1210458881467353,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -195.0969271843096,
+        "transaction_costs": 2.3383897526434305,
+        "hedge_count": 32,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 517.8999860399053,
+        "transaction_costs": 7.6305809870642545,
+        "hedge_count": 65,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 2.1767681446217466,
+        "transaction_costs": 2.756851537918592,
+        "hedge_count": 29,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 465.8721979027323,
+        "transaction_costs": 12.387183043668939,
+        "hedge_count": 93,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 316.8863979840535,
+        "transaction_costs": 7.261497369899777,
+        "hedge_count": 73,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_+Wings(20)_3DTE_dH=5_exit=eod": {
+    "config_name": "Straddle_+Wings(20)_3DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": true,
+      "wing_width": 20,
+      "dte": 3,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 13,
+      "total_pnl": 2557.4532205006453,
+      "avg_pnl": 196.72717080774194,
+      "median_pnl": 98.61977560936367,
+      "std_pnl": 238.89862030674982,
+      "best_trade": 600.5542391915515,
+      "worst_trade": -93.17319745384157,
+      "win_rate": 0.6923076923076923,
+      "sharpe": 13.072268967103073,
+      "avg_transaction_costs": 3.230741211806011,
+      "avg_hedges": 25.384615384615383,
+      "total_transaction_costs": 41.999635753478145,
+      "profit_factor": 12.91170986349353
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -14.00159044166503,
+        "transaction_costs": 2.326806028327156,
+        "hedge_count": 17,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -93.17319745384157,
+        "transaction_costs": 2.570069322118273,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": 294.69218189410464,
+        "transaction_costs": 0.9863769664525787,
+        "hedge_count": 5,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": 87.50737447085703,
+        "transaction_costs": 1.9854796670986201,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": 98.61977560936367,
+        "transaction_costs": 0.8568191160876153,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": 297.62098368123907,
+        "transaction_costs": 1.263345411272487,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -87.18594469766686,
+        "transaction_costs": 1.9018530385904877,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": 0.13087495887157274,
+        "transaction_costs": 2.053452607536209,
+        "hedge_count": 12,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 600.5542391915515,
+        "transaction_costs": 8.155610010869252,
+        "hedge_count": 73,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": 509.5606318927603,
+        "transaction_costs": 2.421197427532649,
+        "hedge_count": 26,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -20.34003243625466,
+        "transaction_costs": 0.24,
+        "hedge_count": 0,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 553.0688929814496,
+        "transaction_costs": 13.279641165759687,
+        "hedge_count": 105,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": 330.399030849876,
+        "transaction_costs": 3.9589849918331326,
+        "hedge_count": 45,
+        "exit_reason": "expiry",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=5_exit=SL-300_TP300": {
+    "config_name": "Straddle_3DTE_dH=5_exit=SL-300_TP300",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 300,
+      "profit_target": 300,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "pnl_stop",
+      "exit_time_minutes": 385,
+      "stop_loss": -300,
+      "take_profit": 300,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": -130.76648099269514,
+      "avg_pnl": -10.89720674939126,
+      "median_pnl": -9.93153891073554,
+      "std_pnl": 3.8830439053623107,
+      "best_trade": -5.347951556806947,
+      "worst_trade": -18.325697582545672,
+      "win_rate": 0.0,
+      "sharpe": -44.54953342813728,
+      "avg_transaction_costs": 0.16722929364276537,
+      "avg_hedges": 0.4166666666666667,
+      "total_transaction_costs": 2.0067515237131843,
+      "profit_factor": 0.0
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -11.345233963639203,
+        "transaction_costs": 0.22521388498800088,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -16.16499531464433,
+        "transaction_costs": 0.22604288059134003,
+        "hedge_count": 1,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -5.347951556806947,
+        "transaction_costs": 0.2279305009807769,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -8.170006899397094,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -11.170023045191584,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -18.325697582545672,
+        "transaction_costs": 0.2156768879870663,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -13.170007828781422,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -7.170014869578836,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": -7.401306065820279,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -8.638176583413042,
+        "transaction_costs": 0.271887369166,
+        "hedge_count": 1,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": -15.170012506597232,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -8.693054776279496,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-300)",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_3DTE_dH=5_exit=SL-500_TP500": {
+    "config_name": "Straddle_3DTE_dH=5_exit=SL-500_TP500",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500,
+      "profit_target": 500,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 3,
+      "exit_strategy": "pnl_stop",
+      "exit_time_minutes": 385,
+      "stop_loss": -500,
+      "take_profit": 500,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 12,
+      "total_pnl": -143.89493622301285,
+      "avg_pnl": -11.99124468525107,
+      "median_pnl": -10.01914436995935,
+      "std_pnl": 5.370389350999452,
+      "best_trade": -5.347951556806947,
+      "worst_trade": -24.298478275509297,
+      "win_rate": 0.0,
+      "sharpe": -35.44530864384536,
+      "avg_transaction_costs": 0.17376654989124718,
+      "avg_hedges": 0.5,
+      "total_transaction_costs": 2.0851985986949657,
+      "profit_factor": 0.0
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -11.345233963639203,
+        "transaction_costs": 0.22521388498800088,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": -16.16499531464433,
+        "transaction_costs": 0.22604288059134003,
+        "hedge_count": 1,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -5.347951556806947,
+        "transaction_costs": 0.2279305009807769,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -8.170006899397094,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -24.298478275509297,
+        "transaction_costs": 0.19844707498178166,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -18.325697582545672,
+        "transaction_costs": 0.2156768879870663,
+        "hedge_count": 1,
+        "exit_reason": "take_profit(500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -13.170007828781422,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -7.170014869578836,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": -7.401306065820279,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -8.638176583413042,
+        "transaction_costs": 0.271887369166,
+        "hedge_count": 1,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": -15.170012506597232,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -8.693054776279496,
+        "transaction_costs": 0.12000000000000001,
+        "hedge_count": 0,
+        "exit_reason": "stop_loss(-500)",
+        "hold_days": 4
+      }
+    ]
+  },
+  "Straddle_2DTE_dH=5_exit=eod": {
+    "config_name": "Straddle_2DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 2,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 18,
+      "total_pnl": -2183.5231798065543,
+      "avg_pnl": -121.30684332258635,
+      "median_pnl": -63.97508398451828,
+      "std_pnl": 237.73146130174834,
+      "best_trade": 136.62246978304393,
+      "worst_trade": -819.6249539623823,
+      "win_rate": 0.4444444444444444,
+      "sharpe": -8.100259124419374,
+      "avg_transaction_costs": 3.8827466995228175,
+      "avg_hedges": 40.72222222222222,
+      "total_transaction_costs": 69.88944059141072,
+      "profit_factor": 0.21284742243799587
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 27.150198283758073,
+        "transaction_costs": 3.642401758150915,
+        "hedge_count": 42,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": 11.651998781308066,
+        "transaction_costs": 3.7941390035853626,
+        "hedge_count": 46,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 22.03810908768355,
+        "transaction_costs": 1.8405580777456625,
+        "hedge_count": 9,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": -227.15738307511492,
+        "transaction_costs": 1.9476186643515156,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": 136.62246978304393,
+        "transaction_costs": 6.835864984307135,
+        "hedge_count": 75,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 125.52441608493245,
+        "transaction_costs": 6.339646128023837,
+        "hedge_count": 78,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -64.79325741610228,
+        "transaction_costs": 1.9188678968665855,
+        "hedge_count": 10,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -168.65493310752208,
+        "transaction_costs": 3.2804745313069232,
+        "hedge_count": 36,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -63.15691055293428,
+        "transaction_costs": 3.3816043226697374,
+        "hedge_count": 37,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": 56.68107742407301,
+        "transaction_costs": 2.145014273520009,
+        "hedge_count": 20,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -266.90976121207495,
+        "transaction_costs": 2.0439088774598426,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 118.79218873013451,
+        "transaction_costs": 6.683525896913075,
+        "hedge_count": 71,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -386.1163557748587,
+        "transaction_costs": 3.774144651021821,
+        "hedge_count": 41,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": -410.5981720046184,
+        "transaction_costs": 6.914914321926181,
+        "hedge_count": 94,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -819.6249539623823,
+        "transaction_costs": 2.0788704777036835,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": -230.09990691127314,
+        "transaction_costs": 2.209307844201162,
+        "hedge_count": 14,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 91.96799737926631,
+        "transaction_costs": 7.903075073751601,
+        "hedge_count": 76,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -136.84000134387315,
+        "transaction_costs": 3.155503807905669,
+        "hedge_count": 42,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      }
+    ]
+  },
+  "Straddle_2DTE_dH=10_exit=eod": {
+    "config_name": "Straddle_2DTE_dH=10_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.1,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 2,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 18,
+      "total_pnl": -2074.262746751203,
+      "avg_pnl": -115.23681926395572,
+      "median_pnl": -75.98954611194495,
+      "std_pnl": 236.31135936387477,
+      "best_trade": 155.89567978207924,
+      "worst_trade": -780.7493057362299,
+      "win_rate": 0.4444444444444444,
+      "sharpe": -7.741175874183544,
+      "avg_transaction_costs": 3.0859620782071002,
+      "avg_hedges": 17.38888888888889,
+      "total_transaction_costs": 55.5473174077278,
+      "profit_factor": 0.24870811536789827
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 54.240679941984126,
+        "transaction_costs": 3.1469551503955078,
+        "hedge_count": 19,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": 34.229004139997414,
+        "transaction_costs": 3.263714975467543,
+        "hedge_count": 24,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 68.30753054659726,
+        "transaction_costs": 1.8417304202645357,
+        "hedge_count": 5,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": -237.28252235930267,
+        "transaction_costs": 1.6552640934316725,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": 117.44206753142134,
+        "transaction_costs": 4.717666397699355,
+        "hedge_count": 30,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 123.79033455276658,
+        "transaction_costs": 4.420987293321064,
+        "hedge_count": 32,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -76.42136959540949,
+        "transaction_costs": 1.5877747379341327,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -133.0401031079382,
+        "transaction_costs": 2.868096667283743,
+        "hedge_count": 16,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -75.5577226284804,
+        "transaction_costs": 2.600357674428167,
+        "hedge_count": 12,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": 78.05053617378871,
+        "transaction_costs": 1.8149541485497107,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -242.52320360336307,
+        "transaction_costs": 1.9809484165107276,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 155.89567978207924,
+        "transaction_costs": 5.864740902706274,
+        "hedge_count": 40,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -377.26604706978105,
+        "transaction_costs": 3.056924860999786,
+        "hedge_count": 17,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": -423.52911761342693,
+        "transaction_costs": 4.967768617911212,
+        "hedge_count": 37,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -780.7493057362299,
+        "transaction_costs": 2.0037163098105477,
+        "hedge_count": 9,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": -282.60169570679136,
+        "transaction_costs": 1.673511389785608,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 54.7093491001724,
+        "transaction_costs": 6.025712786740545,
+        "hedge_count": 34,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -131.95684109928698,
+        "transaction_costs": 2.056492564487666,
+        "hedge_count": 13,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      }
+    ]
+  },
+  "Straddle_2DTE_dH=15_exit=eod": {
+    "config_name": "Straddle_2DTE_dH=15_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.15,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 2,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 18,
+      "total_pnl": -2212.4649760463763,
+      "avg_pnl": -122.91472089146535,
+      "median_pnl": -67.02228069553166,
+      "std_pnl": 236.26263710331196,
+      "best_trade": 174.51100794314698,
+      "worst_trade": -697.0105538419884,
+      "win_rate": 0.3888888888888889,
+      "sharpe": -8.25865116723123,
+      "avg_transaction_costs": 2.7019474877065477,
+      "avg_hedges": 10.166666666666666,
+      "total_transaction_costs": 48.63505477871786,
+      "profit_factor": 0.2331247544789486
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": -36.52699965805368,
+        "transaction_costs": 2.155193663849685,
+        "hedge_count": 6,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": 22.5003772736236,
+        "transaction_costs": 2.6412950302687324,
+        "hedge_count": 12,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 40.544862028807984,
+        "transaction_costs": 1.6594059454156371,
+        "hedge_count": 2,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": -227.81030204849958,
+        "transaction_costs": 1.6555274284770274,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": 120.22508650012969,
+        "transaction_costs": 4.2697504836114195,
+        "hedge_count": 20,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 174.51100794314698,
+        "transaction_costs": 4.252246451193466,
+        "hedge_count": 23,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -53.622002656789846,
+        "transaction_costs": 1.5884085779557788,
+        "hedge_count": 2,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -131.26316874955955,
+        "transaction_costs": 2.534445371708059,
+        "hedge_count": 11,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -80.42255873427348,
+        "transaction_costs": 2.1050444911020274,
+        "hedge_count": 5,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": 70.88057931077492,
+        "transaction_costs": 1.6561153886226403,
+        "hedge_count": 4,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -298.3413593537116,
+        "transaction_costs": 1.6651168165999999,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 114.09576244488562,
+        "transaction_costs": 4.42779186071891,
+        "hedge_count": 22,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -471.6422307409375,
+        "transaction_costs": 2.525015558210443,
+        "hedge_count": 9,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": -471.50180333868775,
+        "transaction_costs": 3.8291508226459454,
+        "hedge_count": 18,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -697.0105538419884,
+        "transaction_costs": 1.9138640472735484,
+        "hedge_count": 5,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": -273.46495959382446,
+        "transaction_costs": 1.6737653981109797,
+        "hedge_count": 3,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 129.81632834933407,
+        "transaction_costs": 6.24947527311666,
+        "hedge_count": 28,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -143.4330411807532,
+        "transaction_costs": 1.8334421698368986,
+        "hedge_count": 7,
+        "exit_reason": "expiry",
+        "hold_days": 3
+      }
+    ]
+  }
+}

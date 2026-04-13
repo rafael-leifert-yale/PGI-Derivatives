@@ -1,0 +1,3355 @@
+{
+  "Straddle_0DTE_dH=1_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=1_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.01,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -1085.4963695017686,
+      "avg_pnl": -17.230101103202678,
+      "median_pnl": -30.12850211697514,
+      "std_pnl": 128.98142683560414,
+      "best_trade": 791.855420184409,
+      "worst_trade": -351.49251979652036,
+      "win_rate": 0.31746031746031744,
+      "sharpe": -2.1206105577515686,
+      "avg_transaction_costs": 5.97142983375592,
+      "avg_hedges": 102.76190476190476,
+      "total_transaction_costs": 376.200079526623,
+      "profit_factor": 0.6223026727579556
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 12.226354712787725,
+        "transaction_costs": 5.758643614853715,
+        "hedge_count": 116,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 57.50488000689802,
+        "transaction_costs": 6.853203098610257,
+        "hedge_count": 130,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -58.45397701502952,
+        "transaction_costs": 3.6021608044628355,
+        "hedge_count": 78,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -18.563981572580815,
+        "transaction_costs": 5.818020827122537,
+        "hedge_count": 127,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 23.83333052051239,
+        "transaction_costs": 7.872146479517019,
+        "hedge_count": 134,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -73.22373451195017,
+        "transaction_costs": 3.4566970509861483,
+        "hedge_count": 100,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 12.550635543622775,
+        "transaction_costs": 7.6005261603980285,
+        "hedge_count": 134,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -71.1142359316218,
+        "transaction_costs": 1.689210736441928,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -18.088310014354647,
+        "transaction_costs": 6.50341699780671,
+        "hedge_count": 131,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 12.970867298790836,
+        "transaction_costs": 8.606418347789237,
+        "hedge_count": 140,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -36.639329181751236,
+        "transaction_costs": 5.427572386410823,
+        "hedge_count": 123,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -38.47330108555616,
+        "transaction_costs": 5.7031767116710546,
+        "hedge_count": 124,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -37.43365125458513,
+        "transaction_costs": 5.281404371311986,
+        "hedge_count": 122,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -45.08791608343017,
+        "transaction_costs": 8.259530244588717,
+        "hedge_count": 129,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": -11.948623128111649,
+        "transaction_costs": 6.476451516925028,
+        "hedge_count": 127,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -20.44813028196222,
+        "transaction_costs": 6.271365236935225,
+        "hedge_count": 129,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 38.45773092719901,
+        "transaction_costs": 3.988097839046385,
+        "hedge_count": 96,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 33.90541542837309,
+        "transaction_costs": 7.561236470382011,
+        "hedge_count": 130,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 34.22074279103981,
+        "transaction_costs": 8.76368825335849,
+        "hedge_count": 134,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 89.29377102171566,
+        "transaction_costs": 10.586202235640398,
+        "hedge_count": 137,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -16.623288517388573,
+        "transaction_costs": 3.402116886724329,
+        "hedge_count": 73,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -64.90428720738419,
+        "transaction_costs": 4.242342471051756,
+        "hedge_count": 107,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -32.61932121061545,
+        "transaction_costs": 5.454521940327291,
+        "hedge_count": 115,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -19.791275706673332,
+        "transaction_costs": 3.8111247145704517,
+        "hedge_count": 107,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -45.935603988757066,
+        "transaction_costs": 4.986586161510729,
+        "hedge_count": 125,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -56.132413109677145,
+        "transaction_costs": 4.172272187384301,
+        "hedge_count": 115,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -68.74429545493331,
+        "transaction_costs": 4.724985427314108,
+        "hedge_count": 88,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -53.293750968863606,
+        "transaction_costs": 2.483571499431754,
+        "hedge_count": 49,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -19.512137841200456,
+        "transaction_costs": 4.194757516639325,
+        "hedge_count": 106,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -21.04941603761108,
+        "transaction_costs": 5.539741652529304,
+        "hedge_count": 121,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -14.381631030941207,
+        "transaction_costs": 5.801697891269029,
+        "hedge_count": 118,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -68.42155251236545,
+        "transaction_costs": 5.889964826392066,
+        "hedge_count": 90,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 5.343248155768379,
+        "transaction_costs": 7.706188060191659,
+        "hedge_count": 110,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 32.95277904232353,
+        "transaction_costs": 7.49262077637877,
+        "hedge_count": 113,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -21.651416498745675,
+        "transaction_costs": 6.494553517784433,
+        "hedge_count": 116,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -102.7880923471821,
+        "transaction_costs": 1.9933781247596598,
+        "hedge_count": 33,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -30.12850211697514,
+        "transaction_costs": 7.3617598864274605,
+        "hedge_count": 113,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 29.698625088385597,
+        "transaction_costs": 11.33928054431899,
+        "hedge_count": 133,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 91.6481938885845,
+        "transaction_costs": 7.234816121675737,
+        "hedge_count": 117,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -97.84003004219267,
+        "transaction_costs": 5.733130619727302,
+        "hedge_count": 92,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -116.88119420818839,
+        "transaction_costs": 3.2068922087281946,
+        "hedge_count": 54,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -118.56381798256189,
+        "transaction_costs": 5.591837004474531,
+        "hedge_count": 75,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -144.31290022932808,
+        "transaction_costs": 3.7798192629247054,
+        "hedge_count": 35,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 791.855420184409,
+        "transaction_costs": 16.56194938657143,
+        "hedge_count": 114,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -351.49251979652036,
+        "transaction_costs": 3.8784461768196823,
+        "hedge_count": 42,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 157.93974396029807,
+        "transaction_costs": 10.541795161267194,
+        "hedge_count": 128,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -153.08227086483384,
+        "transaction_costs": 1.6698537354078618,
+        "hedge_count": 6,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -52.4295653763329,
+        "transaction_costs": 5.749669664985101,
+        "hedge_count": 112,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 87.36883844098338,
+        "transaction_costs": 9.454622461512642,
+        "hedge_count": 136,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -97.93717146448762,
+        "transaction_costs": 4.335856890642493,
+        "hedge_count": 86,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -140.98531963291316,
+        "transaction_costs": 6.71338928489874,
+        "hedge_count": 117,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -59.11348279860249,
+        "transaction_costs": 1.822643708898667,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": 1.973813334145234,
+        "transaction_costs": 6.0552588068348125,
+        "hedge_count": 125,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -38.49306990608602,
+        "transaction_costs": 4.330245384933082,
+        "hedge_count": 85,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 33.4172508006086,
+        "transaction_costs": 4.709387128264746,
+        "hedge_count": 103,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 71.26050566694175,
+        "transaction_costs": 9.702960634436828,
+        "hedge_count": 134,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -50.91284735687077,
+        "transaction_costs": 7.5698475763804325,
+        "hedge_count": 119,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 170.06626252373826,
+        "transaction_costs": 7.04237902385364,
+        "hedge_count": 96,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -59.93629670108203,
+        "transaction_costs": 4.2486673006875595,
+        "hedge_count": 94,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -22.521237609209493,
+        "transaction_costs": 7.760156777603911,
+        "hedge_count": 129,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -166.65359999415523,
+        "transaction_costs": 3.7282224836966753,
+        "hedge_count": 84,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -96.85281361261877,
+        "transaction_costs": 4.387051597885354,
+        "hedge_count": 75,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -40.52446665266325,
+        "transaction_costs": 7.220547654247706,
+        "hedge_count": 115,
+        "exit_reason": "eod"
+      }
+    ]
+  },
+  "Straddle_0DTE_dH=2_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=2_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.02,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -1068.7291602490477,
+      "avg_pnl": -16.96395492458806,
+      "median_pnl": -26.702568645443534,
+      "std_pnl": 129.2764916946342,
+      "best_trade": 793.978125173584,
+      "worst_trade": -355.0052246890409,
+      "win_rate": 0.31746031746031744,
+      "sharpe": -2.0830889852079295,
+      "avg_transaction_costs": 5.795635147491561,
+      "avg_hedges": 84.98412698412699,
+      "total_transaction_costs": 365.1250142919684,
+      "profit_factor": 0.6269011108285719
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 13.700391319420305,
+        "transaction_costs": 5.653863914660237,
+        "hedge_count": 96,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 57.81976181011851,
+        "transaction_costs": 6.64372386742857,
+        "hedge_count": 111,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -58.83572510941303,
+        "transaction_costs": 3.4212687883932826,
+        "hedge_count": 59,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -18.802200558457116,
+        "transaction_costs": 5.605243687471279,
+        "hedge_count": 109,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 23.51752162959383,
+        "transaction_costs": 7.704969097331525,
+        "hedge_count": 120,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -72.80437937598617,
+        "transaction_costs": 3.335437421568553,
+        "hedge_count": 81,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 13.391227492233156,
+        "transaction_costs": 7.38813301932959,
+        "hedge_count": 107,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -69.38417671541538,
+        "transaction_costs": 1.6892510492103134,
+        "hedge_count": 8,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -17.19776468884811,
+        "transaction_costs": 6.318869073253818,
+        "hedge_count": 111,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 12.193857813661452,
+        "transaction_costs": 8.36042798130881,
+        "hedge_count": 122,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -35.843843458162155,
+        "transaction_costs": 5.2579841601680615,
+        "hedge_count": 104,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -38.00663588608586,
+        "transaction_costs": 5.469910856727473,
+        "hedge_count": 104,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -39.159208342578495,
+        "transaction_costs": 4.922573440091533,
+        "hedge_count": 100,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -45.068537239742,
+        "transaction_costs": 8.089451932121127,
+        "hedge_count": 113,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": -11.020224576510373,
+        "transaction_costs": 6.290347770824174,
+        "hedge_count": 106,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -19.87156291853171,
+        "transaction_costs": 6.147793834601428,
+        "hedge_count": 113,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 39.363682625000365,
+        "transaction_costs": 3.7716472880322165,
+        "hedge_count": 69,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 34.36718804622069,
+        "transaction_costs": 7.390564728058483,
+        "hedge_count": 112,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 34.26977578787046,
+        "transaction_costs": 8.56096327250475,
+        "hedge_count": 114,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 87.24180935027107,
+        "transaction_costs": 10.385074798706388,
+        "hedge_count": 124,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -17.84188192984584,
+        "transaction_costs": 3.2007126532604118,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -65.64044606564858,
+        "transaction_costs": 3.992604733986543,
+        "hedge_count": 86,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -33.25423627013515,
+        "transaction_costs": 5.1876988474280665,
+        "hedge_count": 90,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -19.308117227701587,
+        "transaction_costs": 3.4956701103246735,
+        "hedge_count": 70,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -45.79607219242462,
+        "transaction_costs": 4.7495570567797,
+        "hedge_count": 102,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -55.00410289975116,
+        "transaction_costs": 3.934874957647572,
+        "hedge_count": 86,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -68.78304306623613,
+        "transaction_costs": 4.518695481814447,
+        "hedge_count": 70,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -52.9331662505283,
+        "transaction_costs": 2.4201865991607465,
+        "hedge_count": 39,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -18.080208469880745,
+        "transaction_costs": 3.9710284641260514,
+        "hedge_count": 81,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -20.131611874014197,
+        "transaction_costs": 5.203837047308492,
+        "hedge_count": 91,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -14.083390202336886,
+        "transaction_costs": 5.5955149367323465,
+        "hedge_count": 96,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -68.00101045336487,
+        "transaction_costs": 5.779019965851566,
+        "hedge_count": 81,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 5.187938180999481,
+        "transaction_costs": 7.59640010225303,
+        "hedge_count": 103,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 34.265485800555325,
+        "transaction_costs": 7.288521560877567,
+        "hedge_count": 95,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -22.254733171095722,
+        "transaction_costs": 6.336671939603252,
+        "hedge_count": 101,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -101.50743813313602,
+        "transaction_costs": 1.977823125535347,
+        "hedge_count": 25,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -26.702568645443534,
+        "transaction_costs": 7.331124989973712,
+        "hedge_count": 102,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 31.767573053686647,
+        "transaction_costs": 11.200389742308962,
+        "hedge_count": 121,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 92.14661344031629,
+        "transaction_costs": 7.126490579790635,
+        "hedge_count": 105,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -96.59596770945063,
+        "transaction_costs": 5.5936628203693886,
+        "hedge_count": 72,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -116.34340647988574,
+        "transaction_costs": 3.113304993896738,
+        "hedge_count": 43,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -119.57672408713552,
+        "transaction_costs": 5.513580744183832,
+        "hedge_count": 63,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -143.48561818005692,
+        "transaction_costs": 3.718995967484594,
+        "hedge_count": 30,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 793.978125173584,
+        "transaction_costs": 16.473839233104442,
+        "hedge_count": 100,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -355.0052246890409,
+        "transaction_costs": 3.7743520869624962,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 158.68821192697942,
+        "transaction_costs": 10.34582471298698,
+        "hedge_count": 107,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -152.60256609734643,
+        "transaction_costs": 1.6401490214095575,
+        "hedge_count": 3,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -55.06015170112369,
+        "transaction_costs": 5.402720032773508,
+        "hedge_count": 86,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 87.52487570030644,
+        "transaction_costs": 9.211687729194573,
+        "hedge_count": 118,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -97.94621377293515,
+        "transaction_costs": 4.121801117778947,
+        "hedge_count": 67,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -140.8868845305915,
+        "transaction_costs": 6.466953901420349,
+        "hedge_count": 94,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -57.492315035517095,
+        "transaction_costs": 1.7914757418925158,
+        "hedge_count": 8,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": 2.4002584601184935,
+        "transaction_costs": 5.804209638086392,
+        "hedge_count": 98,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -37.72189820875792,
+        "transaction_costs": 4.219729083500782,
+        "hedge_count": 66,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 34.310136851257994,
+        "transaction_costs": 4.439698847792127,
+        "hedge_count": 74,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 71.5606531038793,
+        "transaction_costs": 9.543911714743476,
+        "hedge_count": 116,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -49.12705860804999,
+        "transaction_costs": 7.474153591402459,
+        "hedge_count": 107,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 168.04196011828753,
+        "transaction_costs": 6.835386150876937,
+        "hedge_count": 80,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -60.263440086600895,
+        "transaction_costs": 4.009573675084937,
+        "hedge_count": 73,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -23.573346937984752,
+        "transaction_costs": 7.457572504556148,
+        "hedge_count": 111,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -166.98907933636656,
+        "transaction_costs": 3.5690644840512276,
+        "hedge_count": 68,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -97.05969204297435,
+        "transaction_costs": 4.243529749534469,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -39.42033470831666,
+        "transaction_costs": 7.045513872326691,
+        "hedge_count": 95,
+        "exit_reason": "eod"
+      }
+    ]
+  },
+  "Straddle_0DTE_dH=3_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=3_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.03,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -1051.838008752933,
+      "avg_pnl": -16.695841408776715,
+      "median_pnl": -27.946856559807202,
+      "std_pnl": 127.78871409893455,
+      "best_trade": 785.8620133058139,
+      "worst_trade": -351.12502035209764,
+      "win_rate": 0.31746031746031744,
+      "sharpe": -2.0740350010439195,
+      "avg_transaction_costs": 5.562509509974676,
+      "avg_hedges": 70.17460317460318,
+      "total_transaction_costs": 350.4380991284046,
+      "profit_factor": 0.6287334597622882
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 13.540005781804211,
+        "transaction_costs": 5.339151013176936,
+        "hedge_count": 77,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 56.76067648854223,
+        "transaction_costs": 6.314617186747459,
+        "hedge_count": 94,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -59.10991816785827,
+        "transaction_costs": 3.2402611938170645,
+        "hedge_count": 48,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -18.740459660162742,
+        "transaction_costs": 5.225298567564461,
+        "hedge_count": 84,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 26.600866547614714,
+        "transaction_costs": 7.553014904330783,
+        "hedge_count": 104,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -71.68408556024951,
+        "transaction_costs": 2.926044017326085,
+        "hedge_count": 52,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 14.543734906648751,
+        "transaction_costs": 7.0240309370377325,
+        "hedge_count": 87,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -69.1444834627473,
+        "transaction_costs": 1.6892577128679875,
+        "hedge_count": 7,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -15.372552813481889,
+        "transaction_costs": 6.2725858011489235,
+        "hedge_count": 98,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 12.574883384644636,
+        "transaction_costs": 8.09920536231248,
+        "hedge_count": 106,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -34.84575950987346,
+        "transaction_costs": 4.9032974330653225,
+        "hedge_count": 81,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -35.12435025904415,
+        "transaction_costs": 5.345514344815331,
+        "hedge_count": 87,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -37.72794370964402,
+        "transaction_costs": 4.751006651674624,
+        "hedge_count": 83,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -44.56812392892607,
+        "transaction_costs": 7.8729449665285065,
+        "hedge_count": 102,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": -11.490506950300187,
+        "transaction_costs": 5.980100618323229,
+        "hedge_count": 91,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -19.028269651549635,
+        "transaction_costs": 5.746093925791666,
+        "hedge_count": 89,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 39.04972339083906,
+        "transaction_costs": 3.678943561116348,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 35.0941765620737,
+        "transaction_costs": 7.142540102072334,
+        "hedge_count": 96,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 39.07342351461557,
+        "transaction_costs": 8.529903002509656,
+        "hedge_count": 104,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 86.29813738729717,
+        "transaction_costs": 10.075839613226595,
+        "hedge_count": 105,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -20.97683805842098,
+        "transaction_costs": 2.8444757817152566,
+        "hedge_count": 41,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -63.52913737188646,
+        "transaction_costs": 3.7271904476161817,
+        "hedge_count": 64,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -32.25916999864421,
+        "transaction_costs": 4.999434201883149,
+        "hedge_count": 76,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -20.543684837874025,
+        "transaction_costs": 2.94366558176992,
+        "hedge_count": 43,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -44.70999701837718,
+        "transaction_costs": 4.417728016278762,
+        "hedge_count": 77,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -54.330216655755066,
+        "transaction_costs": 3.5866948247810515,
+        "hedge_count": 62,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -67.83565398831706,
+        "transaction_costs": 4.2320704159454525,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -51.47513212217018,
+        "transaction_costs": 2.372510084573727,
+        "hedge_count": 31,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -19.980065476302116,
+        "transaction_costs": 3.5237054253639526,
+        "hedge_count": 57,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -20.304400663437264,
+        "transaction_costs": 4.868168225043658,
+        "hedge_count": 72,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -15.697748137543385,
+        "transaction_costs": 5.246677984398109,
+        "hedge_count": 80,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -70.43434658280603,
+        "transaction_costs": 5.462163452322329,
+        "hedge_count": 68,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 1.7217769058552221,
+        "transaction_costs": 7.392679014481174,
+        "hedge_count": 93,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 34.06225974390691,
+        "transaction_costs": 7.131447669952035,
+        "hedge_count": 84,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -21.619081852222735,
+        "transaction_costs": 6.2419346915331655,
+        "hedge_count": 93,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -98.62520079503884,
+        "transaction_costs": 1.9157037568066504,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -27.946856559807202,
+        "transaction_costs": 7.069414336478936,
+        "hedge_count": 86,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 33.15694195609831,
+        "transaction_costs": 11.076915637074933,
+        "hedge_count": 110,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 90.79166069003986,
+        "transaction_costs": 6.95644433191618,
+        "hedge_count": 94,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -96.14099665376125,
+        "transaction_costs": 5.438693820411259,
+        "hedge_count": 63,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -116.36108376818447,
+        "transaction_costs": 2.9882980580007876,
+        "hedge_count": 32,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -113.75849316485255,
+        "transaction_costs": 5.4354672724420015,
+        "hedge_count": 58,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -141.98010402447835,
+        "transaction_costs": 3.658181249448977,
+        "hedge_count": 25,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 785.8620133058139,
+        "transaction_costs": 16.355952233128072,
+        "hedge_count": 92,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -351.12502035209764,
+        "transaction_costs": 3.610966074127815,
+        "hedge_count": 29,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 155.66006947150163,
+        "transaction_costs": 10.059569178524784,
+        "hedge_count": 93,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -148.11233909654402,
+        "transaction_costs": 1.6699215674032863,
+        "hedge_count": 3,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -53.785922560229665,
+        "transaction_costs": 5.085922223944026,
+        "hedge_count": 63,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 87.22053208143188,
+        "transaction_costs": 8.893630320823187,
+        "hedge_count": 98,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -96.82003233581781,
+        "transaction_costs": 3.953879006720847,
+        "hedge_count": 54,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -138.19356225037336,
+        "transaction_costs": 6.37448397686738,
+        "hedge_count": 84,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -57.157834107463714,
+        "transaction_costs": 1.6821129849041865,
+        "hedge_count": 3,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": 1.9314811021104106,
+        "transaction_costs": 5.411895180376292,
+        "hedge_count": 75,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -34.41851206217689,
+        "transaction_costs": 4.093581724843486,
+        "hedge_count": 53,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 34.21700357953523,
+        "transaction_costs": 4.280835604399974,
+        "hedge_count": 66,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 73.57806433766382,
+        "transaction_costs": 9.194100030417037,
+        "hedge_count": 95,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -50.20169322226138,
+        "transaction_costs": 7.028516937437415,
+        "hedge_count": 87,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 159.532030767361,
+        "transaction_costs": 6.484799121673932,
+        "hedge_count": 61,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -60.7297638404998,
+        "transaction_costs": 3.595158901737825,
+        "hedge_count": 51,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -22.51045139469352,
+        "transaction_costs": 7.186783566555619,
+        "hedge_count": 98,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -166.1319408855561,
+        "transaction_costs": 3.250626217122094,
+        "hedge_count": 47,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -99.66601281562907,
+        "transaction_costs": 4.052152963527478,
+        "hedge_count": 47,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -38.90972433127172,
+        "transaction_costs": 6.933896118178714,
+        "hedge_count": 85,
+        "exit_reason": "eod"
+      }
+    ]
+  },
+  "Straddle_0DTE_dH=5_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=5_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.05,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -930.8616014534091,
+      "avg_pnl": -14.775580975450938,
+      "median_pnl": -25.569178676472802,
+      "std_pnl": 127.98772575891282,
+      "best_trade": 790.2917351167853,
+      "worst_trade": -344.4671056197403,
+      "win_rate": 0.30158730158730157,
+      "sharpe": -1.8326372707572554,
+      "avg_transaction_costs": 5.138963493115027,
+      "avg_hedges": 50.36507936507937,
+      "total_transaction_costs": 323.75470006624687,
+      "profit_factor": 0.6609075189553528
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 14.470001170688192,
+        "transaction_costs": 5.054105405496453,
+        "hedge_count": 62,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 65.37946472817566,
+        "transaction_costs": 5.880705864550914,
+        "hedge_count": 69,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -57.997990840201965,
+        "transaction_costs": 2.833135719193974,
+        "hedge_count": 27,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -15.904789802872983,
+        "transaction_costs": 4.860817896323622,
+        "hedge_count": 63,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 30.09794023431823,
+        "transaction_costs": 6.915605294000871,
+        "hedge_count": 70,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -70.22460969285748,
+        "transaction_costs": 2.4256903645380725,
+        "hedge_count": 28,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 14.06010419584345,
+        "transaction_costs": 6.523474122754629,
+        "hedge_count": 65,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -69.90157893567084,
+        "transaction_costs": 1.5968289852133948,
+        "hedge_count": 3,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -9.820782907314424,
+        "transaction_costs": 5.703439165201681,
+        "hedge_count": 69,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 9.937560423859395,
+        "transaction_costs": 7.438265378605732,
+        "hedge_count": 77,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -34.43668591568712,
+        "transaction_costs": 4.456305757627341,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -36.192628334480105,
+        "transaction_costs": 4.614485678875399,
+        "hedge_count": 58,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -37.47533956064581,
+        "transaction_costs": 4.064879501321506,
+        "hedge_count": 54,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -53.342197416655836,
+        "transaction_costs": 6.821076208319813,
+        "hedge_count": 75,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": -5.09257032599271,
+        "transaction_costs": 5.390987174450755,
+        "hedge_count": 60,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -19.0181810909271,
+        "transaction_costs": 4.927234689524177,
+        "hedge_count": 58,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 35.05415408006229,
+        "transaction_costs": 2.7513854494456655,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 35.21092237307312,
+        "transaction_costs": 6.630796292131584,
+        "hedge_count": 75,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 35.11862408701563,
+        "transaction_costs": 7.8131054422851856,
+        "hedge_count": 79,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 98.5064984420751,
+        "transaction_costs": 10.029714757446547,
+        "hedge_count": 89,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -20.367255438955908,
+        "transaction_costs": 2.6277886441574365,
+        "hedge_count": 29,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -60.05117697247624,
+        "transaction_costs": 3.3680570825801537,
+        "hedge_count": 43,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -30.14744595002412,
+        "transaction_costs": 4.591710186035293,
+        "hedge_count": 54,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -20.581294021001668,
+        "transaction_costs": 2.7542720614741634,
+        "hedge_count": 29,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -42.07342200198764,
+        "transaction_costs": 3.8962696308281934,
+        "hedge_count": 49,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -53.626388853961544,
+        "transaction_costs": 3.238540664706353,
+        "hedge_count": 41,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -60.499539394477324,
+        "transaction_costs": 4.057186538282566,
+        "hedge_count": 39,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -46.889651828874776,
+        "transaction_costs": 2.150527583717644,
+        "hedge_count": 18,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -15.770730543372338,
+        "transaction_costs": 3.3957588338927978,
+        "hedge_count": 41,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -14.004926339403028,
+        "transaction_costs": 4.404816319237623,
+        "hedge_count": 47,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -8.2811628337804,
+        "transaction_costs": 4.865596310227065,
+        "hedge_count": 55,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -61.54166967386118,
+        "transaction_costs": 5.161453546206186,
+        "hedge_count": 53,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 18.574034351207956,
+        "transaction_costs": 7.329868947744018,
+        "hedge_count": 79,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 32.12558126660588,
+        "transaction_costs": 6.64452295741634,
+        "hedge_count": 61,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -22.728312660183292,
+        "transaction_costs": 5.453066743254248,
+        "hedge_count": 63,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -96.81076189206215,
+        "transaction_costs": 1.7912645748246079,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -25.569178676472802,
+        "transaction_costs": 6.36156038040165,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 30.170074490713887,
+        "transaction_costs": 10.583171686070557,
+        "hedge_count": 94,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 95.52620477494202,
+        "transaction_costs": 6.182491136138626,
+        "hedge_count": 57,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -93.45646686574764,
+        "transaction_costs": 5.330155917206104,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -111.54627844286006,
+        "transaction_costs": 2.816992973294101,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -106.3598207553805,
+        "transaction_costs": 5.372368225034614,
+        "hedge_count": 47,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -143.43405082105892,
+        "transaction_costs": 3.597428525458525,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 790.2917351167853,
+        "transaction_costs": 16.10622465009946,
+        "hedge_count": 78,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -344.4671056197403,
+        "transaction_costs": 3.4035626771748326,
+        "hedge_count": 20,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 148.4424441582014,
+        "transaction_costs": 9.426701969080426,
+        "hedge_count": 72,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -159.4528530323878,
+        "transaction_costs": 1.610376475411648,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -59.301728900500166,
+        "transaction_costs": 4.618511590257748,
+        "hedge_count": 46,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 86.06630212099844,
+        "transaction_costs": 8.194872366560427,
+        "hedge_count": 75,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -99.02307459992153,
+        "transaction_costs": 3.4651918063542277,
+        "hedge_count": 35,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -133.6275215199712,
+        "transaction_costs": 5.974229217668691,
+        "hedge_count": 61,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -58.94098730209225,
+        "transaction_costs": 1.6352665839120568,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": -1.001420266686182,
+        "transaction_costs": 4.658293450027873,
+        "hedge_count": 50,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -39.955593884631526,
+        "transaction_costs": 3.494152969629067,
+        "hedge_count": 33,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 34.49892613600241,
+        "transaction_costs": 3.5823166741373447,
+        "hedge_count": 37,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 74.67998479484231,
+        "transaction_costs": 8.398988586181696,
+        "hedge_count": 68,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -42.83660553289519,
+        "transaction_costs": 6.535191026858156,
+        "hedge_count": 65,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 166.08337729955383,
+        "transaction_costs": 6.198438704574338,
+        "hedge_count": 49,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -47.696896920468134,
+        "transaction_costs": 3.61138405350394,
+        "hedge_count": 38,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -20.090246566680435,
+        "transaction_costs": 6.805366412491324,
+        "hedge_count": 78,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -164.11291226417234,
+        "transaction_costs": 2.852347698843234,
+        "hedge_count": 32,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -97.65100976841495,
+        "transaction_costs": 3.876921089747515,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -33.850690730563656,
+        "transaction_costs": 6.599453448236587,
+        "hedge_count": 67,
+        "exit_reason": "eod"
+      }
+    ]
+  },
+  "Straddle_0DTE_dH=7_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=7_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.07,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -830.3069559765827,
+      "avg_pnl": -13.179475491691788,
+      "median_pnl": -25.68930296551116,
+      "std_pnl": 124.83665457157828,
+      "best_trade": 767.103862214848,
+      "worst_trade": -331.2378071578787,
+      "win_rate": 0.31746031746031744,
+      "sharpe": -1.675931544991562,
+      "avg_transaction_costs": 4.71244639508852,
+      "avg_hedges": 37.06349206349206,
+      "total_transaction_costs": 296.8841228905767,
+      "profit_factor": 0.6870750214909483
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 14.068590741051594,
+        "transaction_costs": 4.544613352386848,
+        "hedge_count": 43,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 69.78133707336383,
+        "transaction_costs": 5.37249003433439,
+        "hedge_count": 50,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -55.10480851193279,
+        "transaction_costs": 2.893400094253132,
+        "hedge_count": 25,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -14.546021206064324,
+        "transaction_costs": 4.207241598166826,
+        "hedge_count": 40,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 33.02559800020754,
+        "transaction_costs": 6.292536147713033,
+        "hedge_count": 51,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -66.99045542063686,
+        "transaction_costs": 2.365075928821938,
+        "hedge_count": 22,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 21.4058267648943,
+        "transaction_costs": 6.265630412867111,
+        "hedge_count": 50,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -68.87587224828167,
+        "transaction_costs": 1.5505919407406878,
+        "hedge_count": 2,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -15.164877763483673,
+        "transaction_costs": 4.780505035304055,
+        "hedge_count": 48,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 20.232668061522418,
+        "transaction_costs": 7.299831330471606,
+        "hedge_count": 63,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -28.89154565367062,
+        "transaction_costs": 3.9624424060225265,
+        "hedge_count": 39,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -30.389473744900897,
+        "transaction_costs": 4.210118846406576,
+        "hedge_count": 39,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -37.517066427921236,
+        "transaction_costs": 3.3471679505956846,
+        "hedge_count": 32,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -51.48530993239547,
+        "transaction_costs": 6.4504610692032,
+        "hedge_count": 60,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": -9.19803099209821,
+        "transaction_costs": 4.429883408331763,
+        "hedge_count": 39,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -17.71985566803778,
+        "transaction_costs": 4.324424357631677,
+        "hedge_count": 41,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 32.87328358063678,
+        "transaction_costs": 2.59669856513077,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 33.84854984514823,
+        "transaction_costs": 5.7000925952373,
+        "hedge_count": 50,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 39.850259910555906,
+        "transaction_costs": 7.346437390031971,
+        "hedge_count": 60,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 93.2405382331126,
+        "transaction_costs": 9.333581068158766,
+        "hedge_count": 71,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -17.739999894001812,
+        "transaction_costs": 2.4262715927869265,
+        "hedge_count": 20,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -64.36507746357529,
+        "transaction_costs": 2.6185796159598302,
+        "hedge_count": 25,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -34.809301087436324,
+        "transaction_costs": 3.8386098845525356,
+        "hedge_count": 35,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -17.68454912177549,
+        "transaction_costs": 2.4233669859110836,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -44.40572353915195,
+        "transaction_costs": 3.138087670067545,
+        "hedge_count": 28,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -57.122441376690404,
+        "transaction_costs": 2.3363359532431107,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -51.80685689095844,
+        "transaction_costs": 3.723547167287477,
+        "hedge_count": 31,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -40.02320367220091,
+        "transaction_costs": 2.15066593284947,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -14.606667833213578,
+        "transaction_costs": 2.9165508743886566,
+        "hedge_count": 26,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -10.890882291772868,
+        "transaction_costs": 4.053059654823181,
+        "hedge_count": 34,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -12.632446700372384,
+        "transaction_costs": 4.008385762305436,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -59.6744312535011,
+        "transaction_costs": 4.891902224727832,
+        "hedge_count": 42,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 18.912556853603746,
+        "transaction_costs": 6.922803880493075,
+        "hedge_count": 60,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 27.447977098621777,
+        "transaction_costs": 6.189318794983027,
+        "hedge_count": 50,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -14.088071060163202,
+        "transaction_costs": 5.0272089221768885,
+        "hedge_count": 46,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -92.6128112069855,
+        "transaction_costs": 1.57358575230776,
+        "hedge_count": 7,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -13.454780527637922,
+        "transaction_costs": 6.207643054393121,
+        "hedge_count": 48,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 29.647125144285383,
+        "transaction_costs": 9.796344273737827,
+        "hedge_count": 77,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 96.66271757475624,
+        "transaction_costs": 5.825967498735694,
+        "hedge_count": 47,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -74.03191192034137,
+        "transaction_costs": 4.959034084252319,
+        "hedge_count": 39,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -110.42671739278012,
+        "transaction_costs": 2.6295565480705427,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -92.7683680301634,
+        "transaction_costs": 4.8397286274934475,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -146.36853345503914,
+        "transaction_costs": 3.506212703502524,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 767.103862214848,
+        "transaction_costs": 15.797098898124672,
+        "hedge_count": 68,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -331.2378071578787,
+        "transaction_costs": 3.3450595290790495,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 159.37805777242465,
+        "transaction_costs": 9.080899500017761,
+        "hedge_count": 58,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -159.4528530323878,
+        "transaction_costs": 1.610376475411648,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -61.03600230476877,
+        "transaction_costs": 4.105077958422045,
+        "hedge_count": 31,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 86.05538988712215,
+        "transaction_costs": 7.647801947017358,
+        "hedge_count": 58,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -92.99712771677878,
+        "transaction_costs": 3.3583557635377677,
+        "hedge_count": 29,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -131.31686853718566,
+        "transaction_costs": 5.712452680321614,
+        "hedge_count": 51,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -58.94098730209225,
+        "transaction_costs": 1.6352665839120568,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": 4.374290824845957,
+        "transaction_costs": 4.3286263157162175,
+        "hedge_count": 38,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -33.73948961315182,
+        "transaction_costs": 3.4628200287894466,
+        "hedge_count": 27,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 35.141511453301064,
+        "transaction_costs": 3.2647200521958957,
+        "hedge_count": 26,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 79.18863557459554,
+        "transaction_costs": 7.890364015576685,
+        "hedge_count": 56,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -45.456473711223225,
+        "transaction_costs": 5.960295226509645,
+        "hedge_count": 47,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 160.82812057455158,
+        "transaction_costs": 5.73723704534135,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -53.81113403579366,
+        "transaction_costs": 3.132225130299048,
+        "hedge_count": 26,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -25.68930296551116,
+        "transaction_costs": 5.850642353849385,
+        "hedge_count": 54,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -161.736310613167,
+        "transaction_costs": 2.565748490808269,
+        "hedge_count": 22,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -99.07919017973472,
+        "transaction_costs": 3.3519002558811364,
+        "hedge_count": 24,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -33.48421370317374,
+        "transaction_costs": 5.771163648906495,
+        "hedge_count": 46,
+        "exit_reason": "eod"
+      }
+    ]
+  },
+  "Straddle_0DTE_dH=10_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=10_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.1,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -952.827208574261,
+      "avg_pnl": -15.124241405940651,
+      "median_pnl": -35.03951305257942,
+      "std_pnl": 125.93558143466151,
+      "best_trade": 788.2398210729734,
+      "worst_trade": -339.7927726262351,
+      "win_rate": 0.3333333333333333,
+      "sharpe": -1.90644999956834,
+      "avg_transaction_costs": 4.098306805911864,
+      "avg_hedges": 24.77777777777778,
+      "total_transaction_costs": 258.19332877244744,
+      "profit_factor": 0.6477978834572862
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 18.004922217070998,
+        "transaction_costs": 3.900145182344173,
+        "hedge_count": 27,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 60.43621289233852,
+        "transaction_costs": 4.3103110622716505,
+        "hedge_count": 30,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -48.402298224275,
+        "transaction_costs": 2.5164771230795964,
+        "hedge_count": 15,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -13.031142565749178,
+        "transaction_costs": 3.796990169731735,
+        "hedge_count": 30,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 35.61282785590083,
+        "transaction_costs": 5.152827238254948,
+        "hedge_count": 30,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -65.11907703623729,
+        "transaction_costs": 2.2135025591813076,
+        "hedge_count": 15,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 22.517116976887337,
+        "transaction_costs": 5.628654898001454,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -66.35167798362818,
+        "transaction_costs": 1.5969276752034434,
+        "hedge_count": 2,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -10.6626592561297,
+        "transaction_costs": 4.103873323283998,
+        "hedge_count": 31,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 7.266724626628275,
+        "transaction_costs": 5.85452451185729,
+        "hedge_count": 38,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -35.553532994221314,
+        "transaction_costs": 3.0527255750021514,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -37.48990997601504,
+        "transaction_costs": 3.074945563919379,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -36.161839744389,
+        "transaction_costs": 2.972736022097901,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -52.081742594906245,
+        "transaction_costs": 5.5842871068182935,
+        "hedge_count": 42,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": 3.0675875934102805,
+        "transaction_costs": 4.306335485057315,
+        "hedge_count": 30,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -18.75193516469153,
+        "transaction_costs": 3.536519127908526,
+        "hedge_count": 24,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 22.694694079596957,
+        "transaction_costs": 1.962623294622918,
+        "hedge_count": 6,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 31.044895923165313,
+        "transaction_costs": 4.971161262901995,
+        "hedge_count": 33,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 45.772729323856765,
+        "transaction_costs": 6.644745169265125,
+        "hedge_count": 44,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 85.92572761607153,
+        "transaction_costs": 8.190153272806937,
+        "hedge_count": 53,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -26.72441085896571,
+        "transaction_costs": 1.7913992206151617,
+        "hedge_count": 8,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -56.11657130540698,
+        "transaction_costs": 2.71254047894357,
+        "hedge_count": 19,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -36.41296848913771,
+        "transaction_costs": 3.163925956133158,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -32.00908498416538,
+        "transaction_costs": 1.7763474010831664,
+        "hedge_count": 7,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -39.60236785016605,
+        "transaction_costs": 2.9960209876979853,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -59.828183155135775,
+        "transaction_costs": 1.9724662352643867,
+        "hedge_count": 12,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -65.79715583942016,
+        "transaction_costs": 3.0712768665255896,
+        "hedge_count": 19,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -35.03951305257942,
+        "transaction_costs": 2.103040183624007,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": 0.8650563649498508,
+        "transaction_costs": 2.9644759789388915,
+        "hedge_count": 19,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -23.080679242782935,
+        "transaction_costs": 3.0298730445666244,
+        "hedge_count": 18,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": -12.626599745432031,
+        "transaction_costs": 3.35748041715238,
+        "hedge_count": 22,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -63.157164328498766,
+        "transaction_costs": 4.0523838605962705,
+        "hedge_count": 28,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 9.23314830968593,
+        "transaction_costs": 5.997721541931301,
+        "hedge_count": 45,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 47.01351658007479,
+        "transaction_costs": 6.033011144173982,
+        "hedge_count": 40,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -14.057764649958699,
+        "transaction_costs": 4.442996006106264,
+        "hedge_count": 32,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -80.88475697357353,
+        "transaction_costs": 1.5271947199364602,
+        "hedge_count": 5,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -36.751196211036586,
+        "transaction_costs": 5.0705845932331055,
+        "hedge_count": 34,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 24.171213998539315,
+        "transaction_costs": 8.346592337406296,
+        "hedge_count": 52,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 77.30303432547953,
+        "transaction_costs": 4.9426595661610895,
+        "hedge_count": 33,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -98.03385596752196,
+        "transaction_costs": 3.8740443641498867,
+        "hedge_count": 24,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -110.13491604581213,
+        "transaction_costs": 2.380462806240418,
+        "hedge_count": 12,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -111.95031627699063,
+        "transaction_costs": 4.4635002745034695,
+        "hedge_count": 28,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -137.08076014433755,
+        "transaction_costs": 3.414877047925692,
+        "hedge_count": 18,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 788.2398210729734,
+        "transaction_costs": 15.325440373767837,
+        "hedge_count": 58,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -339.7927726262351,
+        "transaction_costs": 3.28599001159662,
+        "hedge_count": 15,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 125.94637237650022,
+        "transaction_costs": 7.665924876739125,
+        "hedge_count": 37,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -159.4528530323878,
+        "transaction_costs": 1.610376475411648,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -45.25334823070443,
+        "transaction_costs": 3.6824912196382145,
+        "hedge_count": 20,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 95.6876011873901,
+        "transaction_costs": 6.966383988188278,
+        "hedge_count": 42,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -94.2512862507283,
+        "transaction_costs": 2.777960608046471,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -127.13235239774076,
+        "transaction_costs": 4.957468692070007,
+        "hedge_count": 36,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -58.94098730209225,
+        "transaction_costs": 1.6352665839120568,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": -13.504130399334827,
+        "transaction_costs": 2.9471768069754836,
+        "hedge_count": 16,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -43.591189320119156,
+        "transaction_costs": 2.8318369866131734,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 32.78647227476904,
+        "transaction_costs": 2.7886679013484335,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 80.4542218327988,
+        "transaction_costs": 7.016329018615607,
+        "hedge_count": 40,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -42.774782137421425,
+        "transaction_costs": 5.1964099123822685,
+        "hedge_count": 32,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 138.4709797505784,
+        "transaction_costs": 5.116200235566267,
+        "hedge_count": 27,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -49.27085010133305,
+        "transaction_costs": 2.701744050741646,
+        "hedge_count": 16,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -17.708112030515622,
+        "transaction_costs": 4.7518293335849595,
+        "hedge_count": 29,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -163.62904951298697,
+        "transaction_costs": 2.008606160871194,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -84.28091349661554,
+        "transaction_costs": 3.43190602920161,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -42.86537825354753,
+        "transaction_costs": 4.639978850657287,
+        "hedge_count": 29,
+        "exit_reason": "eod"
+      }
+    ]
+  },
+  "Straddle_0DTE_dH=15_exit=eod": {
+    "config_name": "Straddle_0DTE_dH=15_exit=eod",
+    "config": {
+      "symbol": "SPY",
+      "contracts_per_straddle": 1,
+      "delta_threshold": 0.15,
+      "max_stock_position": 500,
+      "max_daily_loss": 500.0,
+      "profit_target": 500.0,
+      "structure": "straddle",
+      "strangle_width": 0.0,
+      "wings": false,
+      "wing_width": 10.0,
+      "dte": 0,
+      "exit_strategy": "eod",
+      "exit_time_minutes": 385,
+      "stop_loss": -500.0,
+      "take_profit": 500.0,
+      "exit_dte": 0
+    },
+    "metrics": {
+      "total_trades": 63,
+      "total_pnl": -777.1388815214268,
+      "avg_pnl": -12.33553780192741,
+      "median_pnl": -26.38923882247036,
+      "std_pnl": 124.84590322639242,
+      "best_trade": 791.3785088521763,
+      "worst_trade": -310.8113496361839,
+      "win_rate": 0.3333333333333333,
+      "sharpe": -1.5684983392504395,
+      "avg_transaction_costs": 3.518351513225664,
+      "avg_hedges": 15.380952380952381,
+      "total_transaction_costs": 221.6561453332169,
+      "profit_factor": 0.6969964934241625
+    },
+    "daily_results": [
+      {
+        "date": "2024-06-03 00:00:00",
+        "daily_pnl": 9.47429017770628,
+        "transaction_costs": 2.9236319581750143,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-04 00:00:00",
+        "daily_pnl": 43.79030607736786,
+        "transaction_costs": 3.2023797348106133,
+        "hedge_count": 15,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-05 00:00:00",
+        "daily_pnl": -41.82076564426825,
+        "transaction_costs": 2.3055559253766105,
+        "hedge_count": 10,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-06 00:00:00",
+        "daily_pnl": -21.083457494074537,
+        "transaction_costs": 2.3083525520945307,
+        "hedge_count": 12,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-07 00:00:00",
+        "daily_pnl": 25.731319061229442,
+        "transaction_costs": 4.438913758393361,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-10 00:00:00",
+        "daily_pnl": -69.70922153616266,
+        "transaction_costs": 1.4707404259401526,
+        "hedge_count": 5,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-11 00:00:00",
+        "daily_pnl": 22.54261566902278,
+        "transaction_costs": 4.961164150351976,
+        "hedge_count": 25,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-12 00:00:00",
+        "daily_pnl": -63.09700286088628,
+        "transaction_costs": 1.4427996252332667,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-13 00:00:00",
+        "daily_pnl": -25.189939860509185,
+        "transaction_costs": 3.0425225916448326,
+        "hedge_count": 15,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-14 00:00:00",
+        "daily_pnl": 30.09010205987579,
+        "transaction_costs": 5.747472501085322,
+        "hedge_count": 28,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-17 00:00:00",
+        "daily_pnl": -39.570875248653465,
+        "transaction_costs": 2.2192489661599826,
+        "hedge_count": 10,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-18 00:00:00",
+        "daily_pnl": -29.169751990004443,
+        "transaction_costs": 2.795358268609956,
+        "hedge_count": 13,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-20 00:00:00",
+        "daily_pnl": -36.46599636728206,
+        "transaction_costs": 2.3020520277705137,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-21 00:00:00",
+        "daily_pnl": -47.30704432835046,
+        "transaction_costs": 4.516266649106617,
+        "hedge_count": 24,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-24 00:00:00",
+        "daily_pnl": -0.8996721033763606,
+        "transaction_costs": 3.3140320901294493,
+        "hedge_count": 16,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-25 00:00:00",
+        "daily_pnl": -19.39322613121476,
+        "transaction_costs": 2.825665491197791,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-26 00:00:00",
+        "daily_pnl": 32.4591417304473,
+        "transaction_costs": 2.101979602709738,
+        "hedge_count": 6,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-27 00:00:00",
+        "daily_pnl": 38.15375280070293,
+        "transaction_costs": 4.661245210337189,
+        "hedge_count": 25,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-06-28 00:00:00",
+        "daily_pnl": 29.212594432501646,
+        "transaction_costs": 4.868606500247225,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-01 00:00:00",
+        "daily_pnl": 91.70746776305896,
+        "transaction_costs": 6.861130235131597,
+        "hedge_count": 34,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-02 00:00:00",
+        "daily_pnl": -31.814054592170578,
+        "transaction_costs": 1.6056684057631796,
+        "hedge_count": 5,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-03 00:00:00",
+        "daily_pnl": -70.72034467128833,
+        "transaction_costs": 1.8849284815548752,
+        "hedge_count": 8,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-05 00:00:00",
+        "daily_pnl": -33.04445242455404,
+        "transaction_costs": 2.5680950617698595,
+        "hedge_count": 12,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-08 00:00:00",
+        "daily_pnl": -23.128193684773578,
+        "transaction_costs": 1.9185124394456103,
+        "hedge_count": 6,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-09 00:00:00",
+        "daily_pnl": -41.67282783520204,
+        "transaction_costs": 2.379871506794711,
+        "hedge_count": 10,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-10 00:00:00",
+        "daily_pnl": -54.243090138777916,
+        "transaction_costs": 1.8618117496866387,
+        "hedge_count": 7,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-11 00:00:00",
+        "daily_pnl": -55.00630211204407,
+        "transaction_costs": 2.4345286071848893,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-12 00:00:00",
+        "daily_pnl": -39.310106701588666,
+        "transaction_costs": 1.7852228630445135,
+        "hedge_count": 7,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-15 00:00:00",
+        "daily_pnl": -16.348840787737572,
+        "transaction_costs": 2.3250434094832055,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-16 00:00:00",
+        "daily_pnl": -7.47325767071743,
+        "transaction_costs": 3.030241333181095,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-17 00:00:00",
+        "daily_pnl": 3.12118349843513,
+        "transaction_costs": 3.421641030654185,
+        "hedge_count": 17,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-18 00:00:00",
+        "daily_pnl": -17.131841819224064,
+        "transaction_costs": 4.14929442072656,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-19 00:00:00",
+        "daily_pnl": 10.910349110832612,
+        "transaction_costs": 4.83837207085714,
+        "hedge_count": 27,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-22 00:00:00",
+        "daily_pnl": 51.11139405817812,
+        "transaction_costs": 5.154867965974564,
+        "hedge_count": 24,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-23 00:00:00",
+        "daily_pnl": -20.186975553231605,
+        "transaction_costs": 3.465400579863898,
+        "hedge_count": 18,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-24 00:00:00",
+        "daily_pnl": -75.6040616928949,
+        "transaction_costs": 1.5271947199364602,
+        "hedge_count": 4,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-25 00:00:00",
+        "daily_pnl": -28.834871924736944,
+        "transaction_costs": 4.502895444108024,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-26 00:00:00",
+        "daily_pnl": 23.29713512858143,
+        "transaction_costs": 7.082478901958191,
+        "hedge_count": 33,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-29 00:00:00",
+        "daily_pnl": 110.05653612814785,
+        "transaction_costs": 4.586690565639549,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-30 00:00:00",
+        "daily_pnl": -92.95319824841135,
+        "transaction_costs": 3.0844612692238376,
+        "hedge_count": 13,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-07-31 00:00:00",
+        "daily_pnl": -101.21817688178271,
+        "transaction_costs": 2.240526774350024,
+        "hedge_count": 8,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-01 00:00:00",
+        "daily_pnl": -115.84586839046096,
+        "transaction_costs": 3.254838616938444,
+        "hedge_count": 14,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-02 00:00:00",
+        "daily_pnl": -134.9793737074724,
+        "transaction_costs": 2.8837121308621603,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-05 00:00:00",
+        "daily_pnl": 791.3785088521763,
+        "transaction_costs": 14.956149727493914,
+        "hedge_count": 50,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-06 00:00:00",
+        "daily_pnl": -310.8113496361839,
+        "transaction_costs": 2.841638234452165,
+        "hedge_count": 10,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-07 00:00:00",
+        "daily_pnl": 117.26556537579017,
+        "transaction_costs": 6.732980039419202,
+        "hedge_count": 26,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-08 00:00:00",
+        "daily_pnl": -159.4528530323878,
+        "transaction_costs": 1.610376475411648,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-09 00:00:00",
+        "daily_pnl": -57.909905675653135,
+        "transaction_costs": 3.0026642379821427,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-12 00:00:00",
+        "daily_pnl": 79.45660102916736,
+        "transaction_costs": 5.888574663051539,
+        "hedge_count": 26,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-13 00:00:00",
+        "daily_pnl": -75.87604457753332,
+        "transaction_costs": 2.900130120412046,
+        "hedge_count": 15,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-14 00:00:00",
+        "daily_pnl": -111.26330019113811,
+        "transaction_costs": 4.342206415553296,
+        "hedge_count": 22,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-15 00:00:00",
+        "daily_pnl": -58.94098730209225,
+        "transaction_costs": 1.6352665839120568,
+        "hedge_count": 1,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-16 00:00:00",
+        "daily_pnl": 6.007847436623706,
+        "transaction_costs": 3.026172236265225,
+        "hedge_count": 12,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-19 00:00:00",
+        "daily_pnl": -43.46685488738149,
+        "transaction_costs": 2.4224433556318035,
+        "hedge_count": 10,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-20 00:00:00",
+        "daily_pnl": 34.01002886376227,
+        "transaction_costs": 2.470797449473226,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-21 00:00:00",
+        "daily_pnl": 66.13123208706384,
+        "transaction_costs": 5.728626240195444,
+        "hedge_count": 23,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-22 00:00:00",
+        "daily_pnl": -55.022283992868324,
+        "transaction_costs": 3.6994793109737723,
+        "hedge_count": 16,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-23 00:00:00",
+        "daily_pnl": 171.73825574495277,
+        "transaction_costs": 5.085595126118243,
+        "hedge_count": 21,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-26 00:00:00",
+        "daily_pnl": -50.29209278115013,
+        "transaction_costs": 2.2535784858372834,
+        "hedge_count": 9,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-27 00:00:00",
+        "daily_pnl": -19.62718452965055,
+        "transaction_costs": 3.972478610166023,
+        "hedge_count": 19,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-28 00:00:00",
+        "daily_pnl": -142.8819527892556,
+        "transaction_costs": 1.9774637816257048,
+        "hedge_count": 8,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-29 00:00:00",
+        "daily_pnl": -99.62826798743481,
+        "transaction_costs": 2.57197443454199,
+        "hedge_count": 11,
+        "exit_reason": "eod"
+      },
+      {
+        "date": "2024-08-30 00:00:00",
+        "daily_pnl": -26.38923882247036,
+        "transaction_costs": 4.242133191192716,
+        "hedge_count": 20,
+        "exit_reason": "eod"
+      }
+    ]
+  }
+}
